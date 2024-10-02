@@ -21,14 +21,14 @@ repository               : "alessandrobrioschi/alessandrobrioschi.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile_pic.png"
   name             : "Alessandro Brioschi"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  bio              : "Economic History PhD student @ CEPH"
+  location         : "Belfast, UK"
+  employer         : "Queen's University Belfast"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "abrioschi01@qub.ac.uk" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
