@@ -21,7 +21,7 @@ repository               : "alessandrobrioschi/alessandrobrioschi.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile_pic.png"
+  avatar           : "mstile-310x310.png"
   name             : "Alessandro Brioschi"
   pronouns         : # example: "she/her"  
   bio              : "Economic History PhD student @ CEPH"
