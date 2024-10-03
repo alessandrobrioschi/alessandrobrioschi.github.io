@@ -7,8 +7,7 @@
 main:
  
   - title: "CV"
-  # url: /cv/
-  - url: /files/Resume.pdf
+  - url: /files/cv_2024_10_03.pdf
 
   - title: "Research"
     url: /research/
