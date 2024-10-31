@@ -4,8 +4,7 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
+<!-- Created with adjustments for better indexing -->
 
 <url>
   <loc>https://alessandrobrioschi.github.io/</loc>
@@ -13,77 +12,27 @@
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://alessandrobrioschi.github.io/files/Resume.pdf</loc>
-  <lastmod>2024-10-03T14:46:28+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
   <loc>https://alessandrobrioschi.github.io/research/</loc>
   <lastmod>2024-10-03T14:46:28+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://alessandrobrioschi.github.io/sitemap/</loc>
+  <loc>https://alessandrobrioschi.github.io/cv/</loc>
   <lastmod>2024-10-03T14:46:28+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://alessandrobrioschi.github.io/404.html</loc>
+  <loc>https://alessandrobrioschi.github.io/teaching/</loc>
   <lastmod>2024-10-03T14:46:28+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://alessandrobrioschi.github.io/archive-layout-with-content/</loc>
-  <lastmod>2024-10-03T14:46:28+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://alessandrobrioschi.github.io/categories/</loc>
-  <lastmod>2024-10-03T14:46:28+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://alessandrobrioschi.github.io/collection-archive/</loc>
-  <lastmod>2024-10-03T14:46:28+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://alessandrobrioschi.github.io/cv/</loc>
-  <lastmod>2024-10-03T14:46:28+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://alessandrobrioschi.github.io/markdown/</loc>
-  <lastmod>2024-10-03T14:46:28+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://alessandrobrioschi.github.io/non-menu-page/</loc>
-  <lastmod>2024-10-03T14:46:28+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://alessandrobrioschi.github.io/page-archive/</loc>
-  <lastmod>2024-10-03T14:46:28+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://alessandrobrioschi.github.io/portfolio/</loc>
-  <lastmod>2024-10-03T14:46:28+00:00</lastmod>
-  <priority>0.64</priority>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://alessandrobrioschi.github.io/publications/</loc>
   <lastmod>2024-10-03T14:46:28+00:00</lastmod>
-  <priority>0.64</priority>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://alessandrobrioschi.github.io/tags/</loc>
-  <lastmod>2024-10-03T14:46:28+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://alessandrobrioschi.github.io/talkmap.html</loc>
+  <loc>https://alessandrobrioschi.github.io/portfolio/</loc>
   <lastmod>2024-10-03T14:46:28+00:00</lastmod>
   <priority>0.64</priority>
 </url>
@@ -92,29 +41,6 @@
   <lastmod>2024-10-03T14:46:28+00:00</lastmod>
   <priority>0.64</priority>
 </url>
-<url>
-  <loc>https://alessandrobrioschi.github.io/teaching/</loc>
-  <lastmod>2024-10-03T14:46:28+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://alessandrobrioschi.github.io/terms/</loc>
-  <lastmod>2024-10-03T14:46:28+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://alessandrobrioschi.github.io/year-archive/</loc>
-  <lastmod>2024-10-03T14:46:28+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://alessandrobrioschi.github.io/markdown_generator/</loc>
-  <lastmod>2024-10-03T14:46:28+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://alessandrobrioschi.github.io/robots.txt</loc>
-  <lastmod>2024-10-03T14:46:28+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
+
 </urlset>
+
