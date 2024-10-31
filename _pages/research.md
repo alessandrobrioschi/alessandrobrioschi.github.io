@@ -6,4 +6,9 @@ permalink: /research/
 author_profile: true
 ---
 
-Something exciting is coming up. Stay tuned for more. 🙂
+Work in progress
+======
+1. “The determinants of the skill premium in late medieval and early modern Europe” (with Mattia Fochesato, R&R European Review of Economic History)
+2. “Networks paving the way: apprenticeship and occupational mobility in early modern Genoa” (work in progress)
+3. “The effect of asymmetric shocks on preindustrial apprenticeship: evidence from Venice” (work in progress)
+
