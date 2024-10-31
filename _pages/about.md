@@ -1,6 +1,7 @@
 ---
 permalink: /
 title: "About"
+meta: "I am a PhD student in Economic History at Queen's University, Belfast. My research project investigates apprenticeship and labour markets in late medieval and early modern Northern Italy."
 description: "I am a PhD student in Economic History at Queen's University, Belfast."
 excerpt: "About me"
 author_profile: true
