@@ -6,16 +6,29 @@ permalink: /contact/
 author_profile: true
 ---
 
+<br>
 
-Email:
+**Email:**
+
 [abrioschi01@qub.ac.uk](abrioschi01@qub.ac.uk)
 
-Twitter:
+<br>
+
+**Twitter:**
 [@BrioschiA](https://twitter.com/BrioschiA)
 
-Office address:
+<br>
+
+**Office address:**
+
+<br>
+<br>
 Centre for Economic History
+<br>
 Student Hub, ​Queen's Business School
+<br>
 185 Stranmillis Road
+<br>
 Belfast BT9 5EE
+<br>
 Northern Ireland
