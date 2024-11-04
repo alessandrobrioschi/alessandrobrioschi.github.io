@@ -17,8 +17,8 @@ author_profile: true
 **Twitter:**
 <br>
 [@BrioschiA](https://twitter.com/BrioschiA)
-
 <br>
+
 **Office address:**
 <br>
 Centre for Economic History
