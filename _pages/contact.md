@@ -10,7 +10,7 @@ author_profile: true
 
 **Email:**
 <br>
-[abrioschi01@qub.ac.uk](abrioschi01@qub.ac.uk)
+[abrioschi01@qub.ac.uk](mailto:abrioschi01@qub.ac.uk)
 
 <br>
 
@@ -19,7 +19,6 @@ author_profile: true
 [@BrioschiA](https://twitter.com/BrioschiA)
 
 <br>
-
 **Office address:**
 <br>
 Centre for Economic History
