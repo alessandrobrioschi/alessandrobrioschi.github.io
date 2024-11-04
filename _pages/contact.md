@@ -20,8 +20,6 @@ author_profile: true
 <br>
 
 **Office address:**
-
-<br>
 <br>
 Centre for Economic History
 <br>
