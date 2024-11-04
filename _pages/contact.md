@@ -11,7 +11,6 @@ author_profile: true
 **Email:**
 <br>
 [abrioschi01@qub.ac.uk](mailto:abrioschi01@qub.ac.uk)
-
 <br>
 
 **Twitter:**
