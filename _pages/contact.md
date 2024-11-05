@@ -7,12 +7,8 @@ author_profile: true
 header:
   overlay_image: /queens_back1.jpg
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+  title_style: "text-align: center;"
 ---
-
-<div style="text-align: center;">
-  <h1>Contact</h1>
-</div>
-
 <br>
 
 **Email:**
