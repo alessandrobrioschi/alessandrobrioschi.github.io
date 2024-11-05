@@ -9,6 +9,10 @@ header:
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
 ---
 
+<div style="text-align: center;">
+  <h1>Contact</h1>
+</div>
+
 <br>
 
 **Email:**
