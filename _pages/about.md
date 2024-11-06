@@ -9,7 +9,7 @@ redirect_from:
 header:
   overlay_image: /umich.jpg
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
-  margin-bottom: 50px; /* Adjust as needed */
+  margin-bottom: 200px; /* Adjust as needed */
 ---
 
 I am a second-year Economic History PhD student at [Queen's University Belfast](https://www.qub.ac.uk/), member of the [Centre for Economics, Policy and History](https://ceph.ie/), an all-Ireland centre of excellence funded by the Higher Education Authority, linking Trinity College Dublin and Queen's University Belfast. 
