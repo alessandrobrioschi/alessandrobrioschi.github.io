@@ -1,8 +1,6 @@
 ---
 permalink: /
 title: ""
-meta: "I am a PhD student in Economic History at Queen's University, Belfast."
-description: "I am a PhD student in Economic History at Queen's University, Belfast."
 excerpt: "About me"
 author_profile: true
 redirect_from: 
