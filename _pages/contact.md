@@ -8,8 +8,6 @@ header:
   overlay_image: /wallpaper.png
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
 ---
-<br>
-
 **Email:**
 <br>
 [abrioschi01@qub.ac.uk](mailto:abrioschi01@qub.ac.uk)
