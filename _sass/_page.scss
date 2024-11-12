@@ -5,7 +5,7 @@
 #main {
   @include container;
   @include clearfix;
-  margin-top: 2em;
+  margin-top: 4em; // Increased top margin for more spacing
   padding-left: 1em;
   padding-right: 1em;
   animation: intro 0.3s both;
@@ -35,7 +35,7 @@
 }
 
 .page__title {
-  margin-top: 0;
+  margin-top: 1em; // Slightly increased top margin for better readability
   line-height: 1;
 
   & + .page__meta {
@@ -49,7 +49,6 @@
 }
 
 .page__content {
-
   h2 {
     padding-bottom: 0.5em;
     border-bottom: 1px solid $border-color;
@@ -63,7 +62,7 @@
   p {
     margin: 0 0 $indent-var;
 
-    /* sibling indentation*/
+    /* sibling indentation */
     @if $paragraph-indent == true {
       & + p {
         text-indent: $indent-var;
@@ -191,8 +190,8 @@
   }
 }
 
-/*
-   Social sharing
+/* 
+   Social sharing 
    ========================================================================== */
 
 .page__share {
@@ -220,9 +219,8 @@
   text-transform: uppercase;
 }
 
-
-/*
-   Page meta
+/* 
+   Page meta 
    ========================================================================== */
 
 .page__meta {
@@ -246,9 +244,8 @@
   text-transform: uppercase;
 }
 
-
-/*
-   Page taxonomy
+/* 
+   Page taxonomy 
    ========================================================================== */
 
 .page__taxonomy {
@@ -276,9 +273,8 @@
   }
 }
 
-
-/*
-   Comments
+/* 
+   Comments 
    ========================================================================== */
 
 .page__comments {
@@ -372,9 +368,8 @@
   }
 }
 
-
-/*
-   Related
+/* 
+   Related 
    ========================================================================== */
 
 .page__related {
