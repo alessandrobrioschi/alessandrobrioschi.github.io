@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 header:
-  overlay_image: /rauschenberg.jpg
+  overlay_image: /queens.jpeg
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
 ---
 
