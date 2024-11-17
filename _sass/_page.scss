@@ -5,7 +5,7 @@
 #main {
   @include container;
   @include clearfix;
-  margin-top: 4em; // Increased top margin for more spacing
+  margin-top: 6em; // Increased top margin for more spacing
   padding-left: 1em;
   padding-right: 1em;
   animation: intro 0.3s both;
@@ -35,7 +35,7 @@
 }
 
 .page__title {
-  margin-top: 1em; // Slightly increased top margin for better readability
+  margin-top: 2em; // Slightly increased top margin for better readability
   line-height: 1;
 
   & + .page__meta {
