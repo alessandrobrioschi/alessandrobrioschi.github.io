@@ -13,6 +13,6 @@ header:
 {% include base_path %}
 
 
-Please find my CV [here](../files/Resume.pdf).
+Please find my CV [here](../files/CV_Brioschi.pdf).
 
 
