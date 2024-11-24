@@ -12,21 +12,23 @@ header:
 Work in progress
 ======
 
-**''The determinants of the skill premium in late medieval and early modern Europe''**
+<br>
+
+**The determinants of the skill premium in late medieval and early modern Europe**
 
 (with Mattia Fochesato, ,minor revisions requested - European Review of Economic History)
 
 <br>
 
 
-**''Networks paving the way: apprenticeship and occupational mobility in early modern Genoa''** 
+**Networks paving the way: apprenticeship and occupational mobility in early modern Genoa** 
 
 (work in progress)
 
 
 <br>
 
-**''Asymmetric shocks and preindustrial apprenticeship: evidence from the 1630 plague in Venice''**
+**Asymmetric shocks and preindustrial apprenticeship: evidence from the 1630 plague in Venice**
 
 (work in progress)
 
