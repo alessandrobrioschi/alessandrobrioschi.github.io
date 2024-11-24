@@ -14,7 +14,9 @@ Work in progress
 
 **“The determinants of the skill premium in late medieval and early modern Europe”**
 
-(with Mattia Fochesato, R&R European Review of Economic History)
+(with Mattia Fochesato)
+
+Minor revisions requested - European Review of Economic History
 
 
 
