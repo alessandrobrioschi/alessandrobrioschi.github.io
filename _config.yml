@@ -58,7 +58,7 @@ author:
   avatar           : "profile_pic_2.png"
   name             : "Alessandro Brioschi"
   pronouns         : # example: "she/her"  
-  bio              : "Economic History PhD student @ CEPH"
+  bio              : "Economic History PhD student @ Queen's University Belfast"
   location         : "Belfast, UK"
   employer         : "Queen's University Belfast"
   uri              : # URL
@@ -68,7 +68,7 @@ author:
   arxiv            : # URL - Update with the correct link to your profile
   googlescholar    : # URL
   impactstory      : # URL
-  orcid            : "https://orcid.org/0009-0002-5107-7553"
+  orcid            : # URL
   semantic         : # URL
   pubmed           : # URL
   researchgate     : # URL
