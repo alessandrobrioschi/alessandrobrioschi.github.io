@@ -12,7 +12,7 @@ header:
 Work in progress
 ======
 
-**“The determinants of the skill premium in late medieval and early modern Europe”**
+**``The determinants of the skill premium in late medieval and early modern Europe''**
 
 (with Mattia Fochesato)
 
