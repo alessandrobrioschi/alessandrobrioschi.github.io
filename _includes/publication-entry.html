@@ -1,0 +1,80 @@
+{% comment %}
+  publication-entry.html: Minimal info on main block,
+  collapsible details for extra info.
+{% endcomment %}
+{% include base_path %}
+
+{% assign title       = post.title %}
+{% assign date_string = post.date | default: "1900-01-01" | date: "%Y" %}
+
+<div class="pub-entry">
+  <!-- Main Block -->
+  <h3 class="pub-title">{{ title }}</h3>
+
+  {% if post.venue %}
+    <p><strong>Venue:</strong> <em>{{ post.venue }}</em> ({{ date_string }})</p>
+  {% endif %}
+
+  {% if post.coauthors %}
+    <p><strong>Coauthors:</strong> {{ post.coauthors }}</p>
+  {% endif %}
+
+  {% comment %}
+    Show media coverage only if "media" is present and not ".".
+    Also strip newlines to ensure links stay on the same line.
+  {% endcomment %}
+  {% if post.media and post.media != '.' %}
+    <p>
+        <strong>Media coverage:</strong>
+        <span>
+          {% for link in post.media | split: '\n' %}
+            {{ link | markdownify | remove: '<p>' | remove: '</p>' }}{% if forloop.last == false %}, {% endif %}
+          {% endfor %}
+        </span>
+    </p>
+  {% endif %}
+
+  {% comment %}
+    Determine if there's anything for the details section.
+    If none of these fields are present, we won't show <details> at all.
+  {% endcomment %}
+  {% assign has_any_details = false %}
+  {% if post.paperurl %}{% assign has_any_details = true %}{% endif %}
+  {% if post.excerpt %}{% assign has_any_details = true %}{% endif %}
+  {% if post.replication %}{% assign has_any_details = true %}{% endif %}
+  {% if post.workingpaper %}{% assign has_any_details = true %}{% endif %}
+
+  {% if has_any_details %}
+  <!-- Collapsible Section -->
+  <details class="pub-details">
+    <summary>Show details</summary>
+
+    {% if post.paperurl %}
+      <p>
+      <a href="{{ post.paperurl }}" target="_blank">View/Download</a>
+      </p>
+    {% endif %}
+
+    {% if post.excerpt and post.excerpt != '' %}
+      <p>
+      <strong>Abstract:</strong><br>
+      {{ post.excerpt | markdownify }}
+      </p>
+    {% endif %}
+
+    {% if post.replication %}
+      <p>
+        {{ post.replication | markdownify | strip_newlines | strip }}
+      </p>
+    {% endif %}
+
+    {% if post.workingpaper %}
+      <p>
+      <strong>WP Version:</strong>
+      <a href="{{ post.workingpaper }}" target="_blank">View/Download</a>
+      </p>
+    {% endif %}
+
+  </details>
+  {% endif %}
+</div>
