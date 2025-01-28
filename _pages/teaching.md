@@ -15,9 +15,9 @@ At Queen's University Belfast, I am Graduate Teaching Assistant for the followin
 
 **1. ECO1003 - Statistical Methods**
 
-  This is a first-year undergraduate course 
+  ```This is a first-year undergraduate course 
 
-  Course convener: Dr. Aldo Elizalde
+  ```Course convener: Dr. Aldo Elizalde
 
 <br>
 
