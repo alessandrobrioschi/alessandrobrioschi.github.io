@@ -13,7 +13,7 @@ header:
 
 At Queen's University Belfast, I am Graduate Teaching Assistant for the following course:
 
-1. **ECO1003 - Statistical Methods**
+**ECO1003 - Statistical Methods**
 
   - This is a first-year undergraduate course 
 
