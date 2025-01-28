@@ -9,17 +9,15 @@ header:
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
 ---
 
-======
-
 <br>
 
 At Queen's University Belfast, I am Graduate Teaching Assistant for the following course:
 
-**ECO1003 - Statistical Methods**
+**1. ECO1003 - Statistical Methods**
 
-This is a first-year undergraduate course 
+  This is a first-year undergraduate course 
 
-Course convener: Dr. Aldo Elizalde
+  Course convener: Dr. Aldo Elizalde
 
 <br>
 
