@@ -12,13 +12,15 @@ header:
 
 # Research
 
+<br>
+
 ## Peer-Reviewed Publications
 
 <br>
 
-**The determinants of the skill premium in late medieval and early modern Europe, 1400-1800**
-
-(with Mattia Fochesato, Forthcoming at the *European Review of Economic History*)
+**The determinants of the skill premium in late medieval and early modern Europe, 1400-1800**  
+(with Mattia Fochesato, Forthcoming at the *European Review of Economic History*) 
+[DOI](10.1093/ereh/heaf003)
 
 <br>
 
