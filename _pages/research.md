@@ -25,8 +25,6 @@ header:
     </em></p>
   </details>
 
-<br>
-
 - Asymmetric shocks and preindustrial apprenticeship: evidence from the 1630 plague in Venice
 
 
