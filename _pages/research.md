@@ -19,7 +19,7 @@ header:
 
 - Networks paving the way: apprenticeship and occupational mobility in early modern Genoa
     <details>
-    <summary><strong>Abstract</strong></summary>
+    <summary>[Abstract]</summary>
     <p>
     Attempt 1
     </p>
