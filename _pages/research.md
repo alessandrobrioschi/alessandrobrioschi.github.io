@@ -16,19 +16,10 @@ header:
 
 <br>
 
-Work in progress
-======
+## Work in progress
 
-<br>
+- Networks paving the way: apprenticeship and occupational mobility in early modern Genoa
 
-**Networks paving the way: apprenticeship and occupational mobility in early modern Genoa** 
+- Asymmetric shocks and preindustrial apprenticeship: evidence from the 1630 plague in Venice**
 
-(work in progress)
-
-
-<br>
-
-**Asymmetric shocks and preindustrial apprenticeship: evidence from the 1630 plague in Venice**
-
-(work in progress)
 
