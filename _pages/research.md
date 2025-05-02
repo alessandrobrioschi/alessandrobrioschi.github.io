@@ -21,9 +21,12 @@ header:
     <details>
     <summary>[Abstract]</summary>
     <p>
-    Attempt 1
+    *The functioning of pre-industrial labour markets remains an area of ongoing scholarly debate. Using a dataset of 8,000 apprenticeship contracts drafted in Genoa between 1450 and 1530, this paper examines how social networks shaped labour market outcomes and provides three main insights. First, social networks, particularly the presence of family ties with masters and guild members, structured the entry of apprentices
+into skilled occupations and significantly increased their chances of becoming masters after training. Second, individuals with family ties to guild members benefited from favourable conditions throughout their professional careers, ultimately improving their labour market outcomes and restricting access to opportunities for those without such connections. Third, the segmentation of the urban labour market confirms that
+apprenticeship was only a limited source of opportunities for upward occupational mobility in Italian labour markets.*
     </p>
   </details>
+
 
 - Asymmetric shocks and preindustrial apprenticeship: evidence from the 1630 plague in Venice
 
