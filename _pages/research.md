@@ -8,19 +8,11 @@ header:
   overlay_image: /fresco_research.jpg
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
 ---
-======
-
 # Research
-
-<br>
 
 ## Peer-Reviewed Publications
 
-<br>
-
-**The determinants of the skill premium in late medieval and early modern Europe, 1400-1800**  
-(with Mattia Fochesato, Forthcoming at the *European Review of Economic History*) 
-[DOI](10.1093/ereh/heaf003)
+- Brioschi, Alessandro and Fochesato, Mattia. The Determinants of the Skill Premium in Late Medieval and Early Modern Europe *European Review of Economic History* (Forthcoming). doi: 10.1093/ereh/heaf003 [DOI: 10.1093/ereh/heaf003](https://academic.oup.com/ereh/advance-article-abstract/doi/10.1093/ereh/heaf003/8114447)
 
 <br>
 
