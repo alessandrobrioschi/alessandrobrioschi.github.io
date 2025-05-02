@@ -14,12 +14,17 @@ header:
 
 - Brioschi, Alessandro and Fochesato, Mattia. "The determinants of the skill premium in late medieval and early modern Europe, 1400–1800". *European Review of Economic History* (Forthcoming). [DOI: 10.1093/ereh/heaf003](https://academic.oup.com/ereh/advance-article-abstract/doi/10.1093/ereh/heaf003/8114447)
 
-<br>
 
 ## Work in progress
 
 - Networks paving the way: apprenticeship and occupational mobility in early modern Genoa
+    <details>
+    <summary><strong>Abstract</strong></summary>
+    <p>
+    Attempt 1
+    </p>
+  </details>
 
-- Asymmetric shocks and preindustrial apprenticeship: evidence from the 1630 plague in Venice**
+- Asymmetric shocks and preindustrial apprenticeship: evidence from the 1630 plague in Venice
 
 
