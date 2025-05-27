@@ -25,6 +25,12 @@ header:
     </em></p>
   </details>
 
-- Asymmetric shocks and preindustrial apprenticeship: evidence from the 1630 plague in Venice
+- Asymmetric shocks in pre-industrial labour markets: evidence from the 1630-1631 plague in Venice
+  <details class="abstract">
+    <summary> [Abstract]</summary>
+    <p><em>
+      This paper investigates the impact of the 1630–31 plague on apprenticeship wages in early modern Venice, shedding light on how pre-industrial labour markets adjusted to large demographic shocks. Using a dataset of over 17,000 apprenticeship contracts from early modern Venice, I reconstruct wage trends across skill levels before and after the epidemic. My findings suggest that, unlike the Black Death, which led to widespread wage increases across Europe, the 1630 plague had an asymmetric impact on the Venetian labour market: real wages rose for both skilled and unskilled apprentices, but the increase was significantly larger in skill-intensive trades. Using a difference-in-differences strategy, I estimate that skilled apprentices gained a post-plague wage premium of approximately 10–12\%. These results reflect the slow replenishment of human capital in crafts with long training times, combined with occupational segmentation and heterogeneous institutional responses by guilds. The findings challenge the notion of plague-induced convergence and suggest that, under certain conditions, pandemics can reinforce labour market stratification rather than erode it. 
+    </em></p>
+  </details>
 
 
