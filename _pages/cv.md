@@ -12,6 +12,6 @@ header:
 
 {% include base_path %}
 
-The most up-to-date version of my CV is available for download [here](../files/BrioschiCV_September2025.pdf).
+The most up-to-date version of my CV is available for download [here](../files/Alessandro_Brioschi_CV.pdf).
 
 
