@@ -12,7 +12,6 @@ header:
 
 {% include base_path %}
 
-
-Please find my CV [here](../files/BrioschiCV_September2025.pdf).
+The most up-to-date version of my CV is available for download [here](../files/BrioschiCV_September2025.pdf).
 
 
