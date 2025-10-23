@@ -19,6 +19,7 @@ header:
 <br>
 
 **Office address:**
+<br>
 Centre for Economics, Policy, and History  
 Queen's Business School  
 Queen's University Belfast  
@@ -26,5 +27,7 @@ Riddel Hall, 185 Stranmillis Road
 Belfast BT9 5EE, UK
 
 **Academic Profiles**
+<br>
 [Queen's University Belfast Profile](https://pure.qub.ac.uk/en/persons/alessandro-brioschi/)
+<br>
 [ORCID](https://orcid.org/0009-0003-4196-7947)
