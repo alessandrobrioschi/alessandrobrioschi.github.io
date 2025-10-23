@@ -47,7 +47,7 @@ My research explores the intersection of economic history, human capital formati
     </em></p>
   </details>
 
-- **"Four centuries of pandemics and wealth inequality: Evidence from Northern Italy"**
+- **"Four centuries of pandemics and wealth inequality: Evidence from Northern Italy" (with Guido Alfani)**
   <br>
   *Work in progress*
 
