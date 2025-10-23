@@ -13,19 +13,18 @@ header:
 [abrioschi01@qub.ac.uk](mailto:abrioschi01@qub.ac.uk)
 <br>
 
-**Twitter:**
+**X Profile:**
 <br>
 [@BrioschiA](https://twitter.com/BrioschiA)
 <br>
 
 **Office address:**
-<br>
-Centre for Economic History
-<br>
-Student Hub, ​Queen's Business School
-<br>
-185 Stranmillis Road
-<br>
-Belfast BT9 5EE
-<br>
-Northern Ireland
+Centre for Economics, Policy, and History  
+Queen's Business School  
+Queen's University Belfast  
+Riddel Hall, 185 Stranmillis Road  
+Belfast BT9 5EE, UK
+
+**Academic Profiles**
+[Queen's University Belfast Profile](https://pure.qub.ac.uk/en/persons/alessandro-brioschi/)
+[ORCID](https://orcid.org/0009-0003-4196-7947)
