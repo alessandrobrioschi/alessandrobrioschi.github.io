@@ -11,7 +11,7 @@ locale                   : "en-US"
 title                    : "Alessandro Brioschi"
 title_separator          : "-"
 name                     : &name "Alessandro Brioschi"
-description              : &description "PhD student in Economic History @ Queen's University Belfast"
+description              : &description "PhD Student in Economic History, Queen’s University Belfast"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://alessandrobrioschi.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "alessandrobrioschi/alessandrobrioschi.github.io"
@@ -81,9 +81,9 @@ analytics:
 author:
   name             : "Alessandro Brioschi"
   avatar           : "brioschi_headshot_square.JPG"
-  bio              : "Economic History PhD student @ Queen's University Belfast"
-  location         : "Belfast, UK"
-  employer         :
+  bio              : "PhD Student in Economic History, Queen’s University Belfast"
+  location         : "Belfast, Northern Ireland"
+  employer         : "Queen’s University Belfast"
   pubmed           :
   googlescholar    : "https://scholar.google.it/citations?hl=it&user=_3Y-MtoAAAAJ"
   email            : "abrioschi01@qub.ac.uk" 
@@ -102,7 +102,7 @@ author:
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         : "alessandro-brioschi-bb0237175/" # Username
-  orcid            : #"https://orcid.org/0009-0003-4196-7947"
+  orcid            : "https://orcid.org/0009-0003-4196-7947"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
