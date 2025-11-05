@@ -20,18 +20,18 @@ My research explores the intersection of economic history, human capital formati
 
 ## Peer-Reviewed Publications
 
-- [**``The Determinants of the Skill Premium in Late Medieval and Early Modern Europe, 1400-1800''** (with Mattia Fochesato)](https://doi.org/10.1093/ereh/heaf003). *European Review of Economic History* (April 2025).
+- [**"The Determinants of the Skill Premium in Late Medieval and Early Modern Europe, 1400-1800"**](https://doi.org/10.1093/ereh/heaf003) (with Mattia Fochesato). *European Review of Economic History* (April 2025).
 
 ## Working Papers and Works in Progress
 
-- **"Networks paving the way: apprenticeship and occupational mobility in early modern Genoa"**
+- [**"Networks paving the way: apprenticeship and occupational mobility in early modern Genoa"**](https://www.quceh.org.uk/uploads/1/0/5/5/10558478/wp25-08.pdf)
   <br>
-  *Work in progress*
+  *QUCEH Working Paper Series, Paper No. 25-08*
   <br>
   <details class="abstract">
     <summary> [Abstract]</summary>
     <p><em>
-      This paper investigates how kinship and professional networks shaped labour market outcomes in early modern Genoa. Using a newly constructed dataset of over 8,000 apprenticeship contracts (1450–1530), I examine the extent to which kinship ties with masters or guild members influenced both entry into apprenticeship and the probability of attaining mastership. Leveraging a probabilistic record linkage strategy to reconstruct career trajectories, I show that apprentices with kinship ties to insiders were significantly more likely to become masters, received shorter contracts and enjoyed better contractual and training conditions. These advantages persisted even during periods of economic contraction, suggesting that apprenticeship functioned not only as an open mechanism for human capital formation but also as a selective filter reinforcing occupational stratification. The findings contribute to debates on the role of guilds in pre-industrial labour markets, offering empirical support for the view that social networks limited access to skilled work and upward mobility.
+      This paper investigates how kinship and professional networks shaped labour market outcomes in early modern Genoa. Using a newly constructed dataset of over 8,000 apprenticeship contracts (1450–1530), I examine the extent to which kinship ties with masters or guild members influenced both entry into apprenticeship and the probability of attaining mastership. Using a probabilistic record linkage strategy to reconstruct career trajectories, I show that apprentices with kinship ties to insiders were significantly more likely to become masters, received shorter contracts and enjoyed better contractual and training conditions. These advantages persisted even during periods of economic contraction, suggesting that apprenticeship functioned not only as an open mechanism for human capital formation but also as a selective filter reinforcing occupational stratification. The findings contribute to debates on the role of guilds in pre-industrial labour markets, offering empirical support for the view that social networks limited access to skilled work and upward mobility.
     </em></p>
   </details>
 
