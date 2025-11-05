@@ -20,8 +20,7 @@ My research explores the intersection of economic history, human capital formati
 
 ## Peer-Reviewed Publications
 
-- Brioschi, Alessandro and Fochesato, Mattia. "The determinants of the skill premium in late medieval and early modern Europe, 1400–1800". *European Review of Economic History* (Forthcoming). [DOI: 10.1093/ereh/heaf003](https://academic.oup.com/ereh/advance-article-abstract/doi/10.1093/ereh/heaf003/8114447)
-
+- [**``The Determinants of the Skill Premium in Late Medieval and Early Modern Europe, 1400-1800''** (with Mattia Fochesato). *European Review of Economic History* (April 2025).](https://doi.org/10.1093/ereh/heaf003)
 
 ## Working Papers and Works in Progress
 
