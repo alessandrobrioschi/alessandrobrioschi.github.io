@@ -22,9 +22,9 @@ My research explores the intersection of economic history, human capital formati
 
 - [**"The Determinants of the Skill Premium in Late Medieval and Early Modern Europe, 1400-1800"**](https://doi.org/10.1093/ereh/heaf003) (with Mattia Fochesato). *European Review of Economic History* (April 2025).
 
-## Working Papers and Works in Progress
+## Working Papers & Research in Progress
 
-- [**"Networks paving the way: apprenticeship and occupational mobility in early modern Genoa"**](https://www.quceh.org.uk/uploads/1/0/5/5/10558478/wp25-08.pdf)
+- [**"Networks Paving the Way: Apprenticeship and Occupational Mobility in Early Modern Genoa"**](https://www.quceh.org.uk/uploads/1/0/5/5/10558478/wp25-08.pdf)
   <br>
   *QUCEH Working Paper Series, Paper No. 25-08*
   <br>
@@ -35,7 +35,7 @@ My research explores the intersection of economic history, human capital formati
     </em></p>
   </details>
 
-- **"Asymmetric shocks in pre-industrial labour markets: evidence from the 1630-1631 plague in Venice"**
+- **"Asymmetric Shocks in Preindustrial Labour Markets: Evidence from the 1630-1631 Plague in Venice"**
   <br>
   *Work in progress*
   <br>
@@ -46,7 +46,7 @@ My research explores the intersection of economic history, human capital formati
     </em></p>
   </details>
 
-- **"Four centuries of pandemics and wealth inequality: Evidence from Northern Italy" (with Guido Alfani)**
+- **"Four centuries of pandemics and wealth inequality: Evidence from Northern Italy"** (with Guido Alfani)
   <br>
   *Work in progress*
 
