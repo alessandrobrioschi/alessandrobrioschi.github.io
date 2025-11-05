@@ -34,7 +34,6 @@ My research explores the intersection of economic history, human capital formati
       This paper investigates how kinship and professional networks shaped labour market outcomes in early modern Genoa. Using a newly constructed dataset of over 8,000 apprenticeship contracts (1450–1530), I examine the extent to which kinship ties with masters or guild members influenced both entry into apprenticeship and the probability of attaining mastership. Using a probabilistic record linkage strategy to reconstruct career trajectories, I show that apprentices with kinship ties to insiders were significantly more likely to become masters, received shorter contracts and enjoyed better contractual and training conditions. These advantages persisted even during periods of economic contraction, suggesting that apprenticeship functioned not only as an open mechanism for human capital formation but also as a selective filter reinforcing occupational stratification. The findings contribute to debates on the role of guilds in pre-industrial labour markets, offering empirical support for the view that social networks limited access to skilled work and upward mobility.
     </em></p>
   </details>
-  <br>
 
 - **"Asymmetric Shocks in Preindustrial Labour Markets: Evidence from the 1630-1631 Plague in Venice"**
   <br>
@@ -46,7 +45,6 @@ My research explores the intersection of economic history, human capital formati
       This paper examines how the 1630-31 plague affected apprenticeship wages in Venice, offering new evidence on how pre-industrial labour markets adjusted to large demographic shocks. Using a dataset of more than 17,000 apprenticeship contracts, I reconstruct wage trends before and after the epidemic and compare outcomes across skilled and unskilled trades. Real wages rose in the aftermath of the plague, but the increase was significantly larger in skill-intensive trades, where training was longer and human capital harder to replace. Using a difference-in-differences strategy, I estimate a post-plague skilled wage premium of 12-14 percent, which is robust to controls for contract structure, in-kind payments, and recruitment patterns. These findings suggest that, contrary to the equalizing effects often attributed to the Black Death, the 1630-31 plague reinforced wage hierarchies and entrenched labour market stratification.
     </em></p>
   </details>
-  <br>
 
 - **"Four Centuries of Pandemics and Wealth Inequality: Evidence From Northern Italy"** (with Guido Alfani)
   <br>
