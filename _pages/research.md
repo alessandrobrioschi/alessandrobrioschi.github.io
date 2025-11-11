@@ -20,7 +20,7 @@ My research explores the intersection of economic history, human capital formati
 
 ## Peer-Reviewed Publications
 
-- [**"The Determinants of the Skill Premium in Late Medieval and Early Modern Europe, 1400-1800"**](https://doi.org/10.1093/ereh/heaf003) (with Mattia Fochesato). *European Review of Economic History* (April 2025).
+- [**"The Determinants of the Skill Premium in Late Medieval and Early Modern Europe, 1400-1800"**](https://doi.org/10.1093/ereh/heaf003) (with Mattia Fochesato). *European Review of Economic History*, vol. 29, no. 4 (2025), pp. 534-557.
 
 ## Working Papers & Research in Progress
 
