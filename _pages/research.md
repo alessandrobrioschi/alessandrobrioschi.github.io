@@ -26,7 +26,7 @@ My research explores the intersection of economic history, human capital formati
 
 - [**"Networks Paving the Way: Apprenticeship and Occupational Mobility in Early Modern Genoa"**](https://www.quceh.org.uk/uploads/1/0/5/5/10558478/wp25-08.pdf)
   <br>
-  *QUCEH Working Paper Series, Paper No. 25-08*
+  *QUCEH Working Paper Series, Paper No. 25-08. R&R Economic History Review*
   <br>
   <details class="abstract">
     <summary> [Abstract]</summary>
@@ -35,14 +35,14 @@ My research explores the intersection of economic history, human capital formati
     </em></p>
   </details>
 
-- **"Asymmetric Shocks in Preindustrial Labour Markets: Evidence from the 1630-1631 Plague in Venice"**
+- **"Asymmetric Shocks in Preindustrial Labour Markets: Evidence from the 1629-1631 Plague in Venice"**
   <br>
   *Work in progress*
   <br>
   <details class="abstract">
     <summary> [Abstract]</summary>
     <p><em>
-      This paper examines how the 1630-31 plague affected apprenticeship wages in Venice, offering new evidence on how pre-industrial labour markets adjusted to large demographic shocks. Using a dataset of more than 17,000 apprenticeship contracts, I reconstruct wage trends before and after the epidemic and compare outcomes across skilled and unskilled trades. Real wages rose in the aftermath of the plague, but the increase was significantly larger in skill-intensive trades, where training was longer and human capital harder to replace. Using a difference-in-differences strategy, I estimate a post-plague skilled wage premium of 12-14 percent, which is robust to controls for contract structure, in-kind payments, and recruitment patterns. These findings suggest that, contrary to the equalizing effects often attributed to the Black Death, the 1630-31 plague reinforced wage hierarchies and entrenched labour market stratification.
+      This paper examines how the 1629-31 plague affected apprenticeship wages in Venice, offering new evidence on how pre-industrial labour markets adjusted to large demographic shocks. Using a dataset of more than 17,000 apprenticeship contracts, I reconstruct wage trends before and after the epidemic and compare outcomes across skilled and unskilled trades. Real wages rose in the aftermath of the plague, but the increase was significantly larger in skill-intensive trades, where training was longer and human capital harder to replace. Using a difference-in-differences strategy, I estimate a post-plague skilled wage premium of 12-14 percent, which is robust to controls for contract structure, in-kind payments, and recruitment patterns. These findings suggest that, contrary to the equalizing effects often attributed to the Black Death, the 1629-31 plague reinforced wage hierarchies and entrenched labour market stratification.
     </em></p>
   </details>
 
