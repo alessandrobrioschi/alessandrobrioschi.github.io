@@ -11,11 +11,9 @@ header:
 
 ## Research Interests
 
-My research explores the intersection of economic history, human capital formation, and institutional development, with a focus on early modern Europe. I am particularly interested in:
+My research examines how systems of skill formation structured opportunity, inequality, and labour-market adjustment in early modern Europe. Focusing primarily on the period 1600-1850, I study apprenticeship and guild institutions as mechanisms through which access to skills was regulated, returns to human capital were distributed, and economic shocks were absorbed.
 
-- Apprenticeship and training institutions as drivers of skill formation and labor market outcomes
-- The development of human capital and its role in long-run economic growth
-- The economic and social impacts of preindustrial epidemics, with a focus on early modern Italy
+At its core, my work asks a fundamental question: how did preindustrial economies generate, allocate, and protect skill? This research agenda combines large-scale micro-level historical evidence with quantitative methods to test broader hypotheses about human capital formation, institutional rigidity, and inequality persistence. My research therefore speaks directly to central debates in global economic history, such as economic divergence, labour-market integration, human capital formation, and the persistence of inequality.
 
 
 ## Peer-Reviewed Publications
@@ -24,27 +22,31 @@ My research explores the intersection of economic history, human capital formati
 
 ## Working Papers & Research in Progress
 
-- [**"Networks Paving the Way: Apprenticeship and Occupational Mobility in Early Modern Genoa"**](https://www.quceh.org.uk/uploads/1/0/5/5/10558478/wp25-08.pdf)
+- [**"Networks Paving the Way: Apprenticeship, Guilds, and Access to Mastership in Early Modern Genoa"**](https://www.quceh.org.uk/uploads/1/0/5/5/10558478/wp25-08.pdf)
   <br>
   *QUCEH Working Paper Series, Paper No. 25-08. R&R Economic History Review*
   <br>
   <details class="abstract">
     <summary> [Abstract]</summary>
     <p><em>
-      This paper investigates how kinship and professional networks shaped labour market outcomes in early modern Genoa. Using a newly constructed dataset of over 8,000 apprenticeship contracts (1450–1530), I examine the extent to which kinship ties with masters or guild members influenced both entry into apprenticeship and the probability of attaining mastership. Using a probabilistic record linkage strategy to reconstruct career trajectories, I show that apprentices with kinship ties to insiders were significantly more likely to become masters, received shorter contracts and enjoyed better contractual and training conditions. These advantages persisted even during periods of economic contraction, suggesting that apprenticeship functioned not only as an open mechanism for human capital formation but also as a selective filter reinforcing occupational stratification. The findings contribute to debates on the role of guilds in pre-industrial labour markets, offering empirical support for the view that social networks limited access to skilled work and upward mobility.
+      This paper investigates how kinship and professional networks shaped labour market outcomes in the guild-based labour market of early modern Genoa. Using a newly constructed dataset of over 8,000 apprenticeship contracts (1451–1530), I examine the extent to which family and guild connections influenced apprentices’ chances of attaining mastership. Using a probabilistic record-linkage strategy to reconstruct individual career trajectories, I show that apprentices embedded in kinship or guild networks were substantially more likely to become masters. These advantages operated through multiple channels, including shorter apprenticeship contracts and greater flexibility in training careers, and persisted even during periods of economic contraction, suggesting that apprenticeship in Genoa combined formally open access to training with strong informal mechanisms that structured advancement within skilled trades. The findings contribute to debates on the role of guilds and social networks in pre-industrial labour markets, highlighting how institutions could simultaneously support skill formation and reproduce inequality.
     </em></p>
   </details>
 
-- **"Asymmetric Shocks in Preindustrial Labour Markets: Evidence from the 1629-1631 Plague in Venice"**
+- **"Saint Roch Playing Favourites? Plague, Skill, and Wage Inequality in Early Modern Venice"**
   <br>
   *Work in progress*
   <br>
   <details class="abstract">
     <summary> [Abstract]</summary>
     <p><em>
-      This paper examines how the 1629-31 plague affected apprenticeship wages in Venice, offering new evidence on how pre-industrial labour markets adjusted to large demographic shocks. Using a dataset of more than 17,000 apprenticeship contracts, I reconstruct wage trends before and after the epidemic and compare outcomes across skilled and unskilled trades. Real wages rose in the aftermath of the plague, but the increase was significantly larger in skill-intensive trades, where training was longer and human capital harder to replace. Using a difference-in-differences strategy, I estimate a post-plague skilled wage premium of 12-14 percent, which is robust to controls for contract structure, in-kind payments, and recruitment patterns. These findings suggest that, contrary to the equalizing effects often attributed to the Black Death, the 1629-31 plague reinforced wage hierarchies and entrenched labour market stratification.
+      This paper examines how the 1629-31 plague in Venice reshaped apprenticeship wages, providing new micro-level evidence on labour-market adjustment to severe demographic shocks. Drawing on more than 16,000 apprenticeship contracts, I reconstruct real remuneration, including both cash and in-kind components, and compare wage trajectories across skilled and unskilled trades before and after the epidemic. Using a difference-in-differences design, I show that, although real wages rose after the epidemic, the increase was substantially larger in skill-intensive trades, raising the post-plague skill premium by approximately 10-12 per cent. This asymmetry reflects heterogeneous demand conditions: capital-intensive, export-oriented trades faced lower labour demand contractions and stronger capital-skill complementarities, amplifying pre-existing differentials during a period of acute demographic stress. My findings therefore suggest that, contrary to the equalising effects often attributed to the Black Death, the 1629-31 plague reinforced wage differentials and deepened labour market stratification in early modern Venice.
     </em></p>
   </details>
+
+- **"By the Roll of a Dice: Public Functions and Private Wealth in Pre-Modern Europe"** (with Erich Battistin and Mattia Fochesato)
+  <br>
+  *Work in progress*
 
 - **"Four Centuries of Pandemics and Wealth Inequality: Evidence From Northern Italy"** (with Guido Alfani)
   <br>
