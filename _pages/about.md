@@ -11,13 +11,20 @@ header:
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
 ---
 
-Welcome to my webpage!
+* I am a PhD student in Economic History at [Queen's University Belfast](https://www.qub.ac.uk/).
+  My [research](/research) examines apprenticeship and labour markets in late medieval 
+  and early modern Europe, using archival data to study how skills were transmitted across 
+  generations and how that shaped long-run economic growth in early modern Europe.
 
-I am a PhD student in Economic History at [Queen's University Belfast](https://www.qub.ac.uk/), where I am a member of the [Centre for Economics, Policy and History](https://ceph.ie/), an all-Ireland centre of excellence funded by the Higher Education Authority, linking Trinity College Dublin and Queen's University Belfast. 
+* I am a member of the [Centre for Economics, Policy and History](https://ceph.ie/) (CEPH), 
+  an all-Ireland centre of excellence linking Queen's University Belfast and Trinity College 
+  Dublin. I was previously part of the ERC [SMITE Project](https://dondena.unibocconi.eu/research-projects/smite) 
+  team at the Dondena Centre, Bocconi University, led by professor [Guido Alfani](https://guidoalfani.eu/).
 
-My research focuses on the study of apprenticeship and labour markets in late medieval and early modern Italy. This research aims at contributing to a better understanding of the dynamics behind skills acquisition in early modern Europe and the consequences on long-term economic growth. For my doctoral research I am supervised by [Prof. John Turner](https://www.qub.ac.uk/schools/queens-business-school/people/academic-staff/AllAcademicStaffProfiles/Turner.html) and [Dr. Arcangelo Dimico](https://www.qub.ac.uk/schools/queens-business-school/people/academic-staff/AllAcademicStaffProfiles/Dimico.html).
+* For my doctoral research I am supervised by [Prof. John Turner](https://www.qub.ac.uk/schools/queens-business-school/people/academic-staff/AllAcademicStaffProfiles/Turner.html) and 
+  [Dr. Arcangelo Dimico][Dr. Arcangelo Dimico](https://www.qub.ac.uk/schools/queens-business-school/people/academic-staff/AllAcademicStaffProfiles/Dimico.html). You can find my 
+  [CV](/cv) here or reach me at [abrioschi01@qub.ac.uk](mailto:abrioschi01@qub.ac.uk).
 
-Before moving to Belfast, I completed my Bachelor's and Master's studies at [Bocconi University](https://www.unibocconi.eu/wps/wcm/connect/bocconi/sitopubblico_en/navigation+tree/home) in Milan, Italy. While a visiting student at the [Dondena Centre for Research on Social Dynamics and Public Policy](https://dondena.unibocconi.eu/?_gl=1*oh71bi*_up*MQ..*_ga*MTYxODc1NTA1Mi4xNzI3ODc1ODEz*_ga_GXEKQ9VXGW*MTcyNzg3NTgxMi4xLjAuMTcyNzg3NTgxMi4wLjAuMA..), I was part of the European Research Grant [SMITE Project](https://dondena.unibocconi.eu/research-projects/smite) team, led by professor [Guido Alfani](https://guidoalfani.eu/).
-
-
+Before moving to Belfast, I completed my BA and MSc at Bocconi University in Milan - 
+where I also developed an inexplicable fondness for fifteenth-century Genoese notarial records.
 
