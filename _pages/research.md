@@ -9,13 +9,6 @@ header:
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
 ---
 
-## Research Interests
-
-My research examines how systems of skill formation structured opportunity, inequality, and labour-market adjustment in early modern Europe. Focusing primarily on the period 1600-1850, I study apprenticeship and guild institutions as mechanisms through which access to skills was regulated, returns to human capital were distributed, and economic shocks were absorbed.
-
-At its core, my work asks a fundamental question: how did preindustrial economies generate, allocate, and protect skill? This research agenda combines large-scale micro-level historical evidence with quantitative methods to test broader hypotheses about human capital formation, institutional rigidity, and inequality persistence. My research therefore speaks directly to central debates in global economic history, such as economic divergence, labour-market integration, human capital formation, and the persistence of inequality.
-
-
 ## Peer-Reviewed Publications
 
 - [**"The Determinants of the Skill Premium in Late Medieval and Early Modern Europe, 1400-1800"**](https://doi.org/10.1093/ereh/heaf003) (with Mattia Fochesato). *European Review of Economic History*, vol. 29, no. 4 (2025), pp. 534-557.
