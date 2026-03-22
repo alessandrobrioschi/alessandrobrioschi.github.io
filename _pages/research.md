@@ -37,7 +37,7 @@ header:
     </em></p>
   </details>
 
-- **"By the Roll of a Dice: Public Functions and Private Wealth in Pre-Modern Europe"** (with Erich Battistin and Mattia Fochesato)
+- **"By the Roll of a Die: Public Functions and Private Wealth in Pre-Modern Europe"** (with Erich Battistin and Mattia Fochesato)
   <br>
   *Work in progress*
 
