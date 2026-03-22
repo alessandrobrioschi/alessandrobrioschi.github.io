@@ -41,7 +41,7 @@ a {
 }
 a:hover { color: var(--accent-hover); }
 
-/* ─── Masthead — sits cleanly above the header image, no overlap ─────── */
+/* ─── Masthead ───────────────────────────────────────────────────────── */
 .masthead {
   position: relative !important;
   z-index: 20 !important;
@@ -49,9 +49,7 @@ a:hover { color: var(--accent-hover); }
   border-bottom: 1px solid var(--border) !important;
   box-shadow: none !important;
 }
-.masthead__inner-wrap {
-  background-color: transparent !important;
-}
+.masthead__inner-wrap,
 .greedy-nav {
   background-color: transparent !important;
 }
@@ -62,43 +60,78 @@ a:hover { color: var(--accent-hover); }
   font-weight: 500 !important;
   color: var(--text-primary) !important;
   font-size: 0.88rem !important;
-  letter-spacing: 0.01em !important;
 }
 .greedy-nav a:hover { color: var(--accent) !important; }
 .greedy-nav .visible-links a::before { background: var(--accent) !important; }
 
-/* ─── Page hero banner — flush below masthead ────────────────────────── */
+/* ─── Remove the horizontal line in the header image ────────────────── */
+.page__hero--overlay .page__title,
+.page__hero--overlay p,
+.page__hero--overlay {
+  border-bottom: none !important;
+}
+/* This targets the <hr> or border that appears inside the banner */
+.page__hero--overlay::after,
+.page__hero--overlay::before {
+  display: none !important;
+}
+.page__lead {
+  border-bottom: none !important;
+}
+/* Remove ANY hr inside the hero */
+.page__hero--overlay hr,
+.initial-content hr:first-of-type {
+  display: none !important;
+}
+
+/* ─── Page hero flush below masthead ────────────────────────────────── */
 .page__hero--overlay {
   margin-top: 0 !important;
 }
 
-/* ─── Layout: the two-column wrapper ─────────────────────────────────── */
-/* Make the overall page background the warm parchment */
+/* ─── Overall layout background ─────────────────────────────────────── */
 #main,
 .page,
 .page__inner-wrap {
   background-color: transparent !important;
 }
 
-/* ─── SIDEBAR — sits on the bare parchment background, NO white box ──── */
-.sidebar {
+/* ─── SIDEBAR — wider, transparent, sits on parchment ───────────────── */
+/*
+ * AcademicPages uses a float-based layout. The sidebar width is controlled
+ * by the grid classes on .page and .sidebar. We override the width here
+ * to make the sidebar column significantly wider (matching David's ~280px).
+ */
+.sidebar.sticky {
+  width: 280px !important;
+  min-width: 280px !important;
   background-color: transparent !important;
   border: none !important;
   border-radius: 0 !important;
   box-shadow: none !important;
-  padding: 1.4rem 0.8rem 1rem 0 !important;
+  padding: 1.8rem 1rem 1rem 0 !important;
+  float: left !important;
 }
 
-/* Large circular photo */
+/* Also target the generic .sidebar class */
+.page__inner-wrap .sidebar,
+aside.sidebar {
+  background-color: transparent !important;
+  border: none !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+
+/* ─── Avatar — large ─────────────────────────────────────────────────── */
 .author__avatar {
   display: block !important;
   text-align: center !important;
-  margin-bottom: 1rem !important;
+  margin-bottom: 1.1rem !important;
 }
 .author__avatar img {
-  width:  190px !important;
-  height: 190px !important;
-  max-width: 190px !important;
+  width:  210px !important;
+  height: 210px !important;
+  max-width: 210px !important;
   object-fit: cover !important;
   border-radius: 50% !important;
   border: 3px solid var(--border) !important;
@@ -106,33 +139,33 @@ a:hover { color: var(--accent-hover); }
   margin: 0 auto !important;
 }
 
-/* Name — larger, serif */
+/* ─── Name — larger serif ─────────────────────────────────────────────── */
 .author__name {
   font-family: 'Lora', Georgia, serif !important;
-  font-size: 1.25rem !important;
+  font-size: 1.35rem !important;
   font-weight: 500 !important;
   color: var(--text-primary) !important;
   text-align: center !important;
   line-height: 1.3 !important;
-  margin-bottom: 0.3rem !important;
+  margin-bottom: 0.4rem !important;
 }
 
-/* Tagline below name */
+/* ─── Tagline — bigger than before ───────────────────────────────────── */
 .author__bio {
-  font-size: 0.82rem !important;
+  font-size: 0.92rem !important;
   color: var(--text-mid) !important;
   text-align: center !important;
-  line-height: 1.45 !important;
-  margin-bottom: 1.1rem !important;
+  line-height: 1.5 !important;
+  margin-bottom: 1.2rem !important;
 }
 
-/* Social links list — pill buttons */
-.author__urls-wrapper { margin-top: 0.2rem; }
+/* ─── Social link pills ───────────────────────────────────────────────── */
+.author__urls-wrapper { margin-top: 0.3rem; }
 
 .author__urls {
   display: flex !important;
   flex-direction: column !important;
-  gap: 4px !important;
+  gap: 5px !important;
   padding: 0 !important;
   margin: 0 !important;
   list-style: none !important;
@@ -143,19 +176,17 @@ a:hover { color: var(--accent-hover); }
   margin: 0 !important;
   width: 100% !important;
 }
-
-/* Every link → bordered pill */
 .author__urls li a {
   display: flex !important;
   align-items: center !important;
   gap: 8px !important;
   width: 100% !important;
-  padding: 6px 11px !important;
+  padding: 7px 13px !important;
   border-radius: 7px !important;
   border: 1px solid var(--border) !important;
-  background-color: rgba(255,255,255,0.75) !important;
+  background-color: rgba(255,255,255,0.80) !important;
   color: var(--text-mid) !important;
-  font-size: 0.82rem !important;
+  font-size: 0.88rem !important;
   font-family: 'Source Sans 3', sans-serif !important;
   font-weight: 400 !important;
   text-decoration: none !important;
@@ -167,25 +198,23 @@ a:hover { color: var(--accent-hover); }
   border-color: #b8b4ae !important;
   color: var(--accent) !important;
 }
-/* Icons */
 .author__urls li a i,
 .author__urls li a .fas,
 .author__urls li a .fab,
 .author__urls li a .far,
 .author__urls li a .ai {
-  font-size: 0.82rem !important;
-  width: 15px !important;
+  font-size: 0.88rem !important;
+  width: 16px !important;
   text-align: center !important;
   color: var(--text-muted) !important;
   flex-shrink: 0 !important;
 }
-
-/* Location line — no border, just plain text */
+/* Location line — no border */
 .author__urls li:first-child a {
   border: none !important;
   background: transparent !important;
   color: var(--text-muted) !important;
-  font-size: 0.79rem !important;
+  font-size: 0.84rem !important;
   padding-left: 3px !important;
   justify-content: flex-start !important;
 }
@@ -194,29 +223,44 @@ a:hover { color: var(--accent-hover); }
   color: var(--text-mid) !important;
 }
 
-/* Hide the "Follow" toggle button on desktop */
+/* Show links without toggle on desktop */
 @media (min-width: 64em) {
   .author__urls-wrapper button.btn { display: none !important; }
   .author__urls { display: flex !important; }
 }
 
-/* ─── MAIN CONTENT — white card with the "About me" text ─────────────── */
-.page__content-wrapper,
+/* ─── WHITE CARD — only the content area ─────────────────────────────── */
 article.page {
   background-color: var(--bg-card) !important;
   border-radius: 10px !important;
   border: 1px solid var(--border) !important;
-  padding: 2rem 2.2rem !important;
+  padding: 2rem 2.4rem !important;
+  margin-left: 300px !important; /* leave room for the wider sidebar */
 }
 
-/* Fallback: target the inner content div directly */
 .page__content {
   background-color: transparent;
   font-size: 1rem;
   color: var(--text-primary);
 }
 
-/* Bullet list */
+/* ─── Remove the line under "About me" / page titles ─────────────────── */
+.page__title {
+  font-family: 'Lora', Georgia, serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  border-bottom: none !important;
+  padding-bottom: 0.3rem;
+  margin-bottom: 1.3rem;
+}
+
+/* Also remove lines that the template adds via hr or pseudo-elements */
+.page__content hr,
+.page hr {
+  display: none !important;
+}
+
+/* ─── Bullet list ─────────────────────────────────────────────────────── */
 .page__content ul {
   list-style: none;
   padding-left: 0;
@@ -240,16 +284,6 @@ article.page {
   opacity: 0.6;
 }
 
-/* Page title "About me" */
-.page__title {
-  font-family: 'Lora', Georgia, serif;
-  font-size: 1.5rem;
-  font-weight: 500;
-  border-bottom: none;
-  padding-bottom: 0.5rem;
-  margin-bottom: 1.3rem;
-}
-
 /* ─── Footer ─────────────────────────────────────────────────────────── */
 .page__footer {
   background-color: transparent !important;
@@ -262,14 +296,19 @@ article.page {
 .page__footer a:hover { color: var(--accent); }
 
 /* ─── Responsive ─────────────────────────────────────────────────────── */
-@media (max-width: 768px) {
-  .author__avatar img {
-    width: 130px !important;
-    height: 130px !important;
-    max-width: 130px !important;
+@media (max-width: 900px) {
+  .sidebar.sticky {
+    width: 100% !important;
+    float: none !important;
+    padding: 1rem 0 !important;
   }
-  article.page,
-  .page__content-wrapper {
+  .author__avatar img {
+    width: 140px !important;
+    height: 140px !important;
+    max-width: 140px !important;
+  }
+  article.page {
+    margin-left: 0 !important;
     border-radius: 0 !important;
     padding: 1.2rem !important;
   }
