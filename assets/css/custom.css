@@ -1,13 +1,10 @@
 /*
  * custom.css — Visual theme for alessandrobrioschi.github.io
- * Inspired by davidvandijcke.com
  * Place at: assets/css/custom.css
  */
 
-/* ─── Google Fonts ───────────────────────────────────────────────────── */
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400&family=Source+Sans+3:wght@300;400;500;600&display=swap');
 
-/* ─── Colour palette ─────────────────────────────────────────────────── */
 :root {
   --bg-page:      #f5f2ed;
   --bg-card:      #ffffff;
@@ -27,13 +24,11 @@ html, body {
   line-height: 1.72;
   color: var(--text-primary);
 }
-
 h1, h2, h3, h4 {
   font-family: 'Lora', Georgia, serif;
   font-weight: 500;
   letter-spacing: -0.01em;
 }
-
 a { color: var(--accent); text-decoration: none; transition: color 0.15s; }
 a:hover { color: var(--accent-hover); }
 
@@ -59,49 +54,99 @@ a:hover { color: var(--accent-hover); }
 
 /* ─── Hero banner ────────────────────────────────────────────────────── */
 .page__hero--overlay { margin-top: 0 !important; }
-.page__hero--overlay::after, .page__hero--overlay::before { display: none !important; }
+.page__hero--overlay::after,
+.page__hero--overlay::before { display: none !important; }
 .initial-content hr { display: none !important; }
 
-/* ─── Overall page background ────────────────────────────────────────── */
-html, body, #main, .page, .page__inner-wrap, .page__content-wrapper {
-  background-color: var(--bg-page) !important;
-}
-
-/* ─── SIDEBAR — float left, transparent, wide ───────────────────────── */
-/* 
- * We work WITH the template's float layout, not against it.
- * The sidebar floats left at ~25% width. We widen it to 280px
- * and strip its background so it sits on the bare parchment.
- */
-.sidebar.sticky,
-div.sidebar {
+/* ─── Strip ALL backgrounds so only our targets get colour ───────────── */
+body, #main, .page, .page__inner-wrap,
+.page__content-wrapper, .wrapper,
+article.page, section.page__content {
   background-color: transparent !important;
   border: none !important;
-  border-radius: 0 !important;
   box-shadow: none !important;
-  padding-top: 1.5rem !important;
-  padding-right: 1rem !important;
-  /* Widen the sidebar — the template floats it at ~200px by default */
-  width: 280px !important;
-  float: left !important;
 }
 
-/* ─── ARTICLE — white card with left margin matching sidebar width ────── */
-/*
- * The template already gives article.page a left margin.
- * We increase it to match our wider sidebar + gap.
- */
-article.page {
+/* ─── #main: flex row — sidebar and article side by side ─────────────── */
+/* From the source: #main directly contains .sidebar and article.page    */
+div#main {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: flex-start !important;
+  gap: 2rem !important;
+  padding: 2rem !important;
+  max-width: 1200px !important;
+  margin: 0 auto !important;
+  box-sizing: border-box !important;
+}
+
+/* ─── SIDEBAR ─────────────────────────────────────────────────────────── */
+div#main > div.sidebar {
+  flex: 0 0 260px !important;
+  width: 260px !important;
+  min-width: 260px !important;
+  position: relative !important;
+  float: none !important;
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* ─── ARTICLE — white card, fills remaining width ────────────────────── */
+div#main > article.page {
+  flex: 1 1 auto !important;
+  min-width: 0 !important;
+  float: none !important;
+  width: auto !important;
+  margin: 0 !important;
+  padding: 2rem 2.4rem !important;
   background-color: var(--bg-card) !important;
   border-radius: 10px !important;
   border: 1px solid var(--border) !important;
-  padding: 2rem 2.4rem !important;
-  /* Push it right of the sidebar: 280px sidebar + 2rem gap */
-  margin-left: 310px !important;
+}
+
+/* ─── FIX: .page__inner-wrap must NOT have its own background/border ─── */
+/* This was causing the inner darker rectangle on the homepage            */
+div#main > article.page > .page__inner-wrap {
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* ─── OTHER PAGES (Research, Teaching etc): sidebar inside article ───── */
+/*
+ * On non-homepage layouts the sidebar is nested INSIDE article.page.
+ * We switch article.page itself to flex so its children line up.
+ */
+div#main > article.page > .page__inner-wrap {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: flex-start !important;
+  gap: 2rem !important;
+}
+
+div#main > article.page > .page__inner-wrap > .sidebar,
+div#main > article.page > .page__inner-wrap > div.sidebar {
+  flex: 0 0 220px !important;
+  width: 220px !important;
+  min-width: 220px !important;
   float: none !important;
-  /* Prevent it stretching to full page width */
+  position: relative !important;
+  background-color: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+div#main > article.page > .page__inner-wrap > section.page__content {
+  flex: 1 1 auto !important;
+  min-width: 0 !important;
+  float: none !important;
   width: auto !important;
-  overflow: hidden !important;
 }
 
 /* ─── Avatar ─────────────────────────────────────────────────────────── */
@@ -191,17 +236,18 @@ article.page {
   flex-shrink: 0 !important;
 }
 /* Location line — no border */
+.author__urls li:first-child {
+  font-size: 0.84rem !important;
+  color: var(--text-muted) !important;
+  padding: 2px 3px !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+}
 .author__urls li:first-child a {
   border: none !important;
   background: transparent !important;
-  color: var(--text-muted) !important;
-  font-size: 0.84rem !important;
-  padding-left: 3px !important;
-  justify-content: flex-start !important;
-}
-.author__urls li:first-child a:hover {
-  background: transparent !important;
-  color: var(--text-mid) !important;
+  padding: 0 !important;
 }
 
 /* Show links without toggle on desktop */
@@ -210,13 +256,7 @@ article.page {
   .author__urls { display: flex !important; }
 }
 
-/* ─── Content ─────────────────────────────────────────────────────────── */
-.page__content {
-  background-color: transparent;
-  font-size: 1rem;
-  color: var(--text-primary);
-}
-
+/* ─── Page title — no underline ─────────────────────────────────────── */
 .page__title {
   font-family: 'Lora', Georgia, serif;
   font-size: 1.5rem;
@@ -225,10 +265,9 @@ article.page {
   padding-bottom: 0.3rem;
   margin-bottom: 1.3rem;
 }
-
 .page__content hr, .page hr { display: none !important; }
 
-/* Bullet list */
+/* ─── Bullet list ─────────────────────────────────────────────────────── */
 .page__content ul { list-style: none; padding-left: 0; margin-bottom: 1.4em; }
 .page__content ul li {
   position: relative;
@@ -260,19 +299,25 @@ article.page {
 
 /* ─── Responsive ─────────────────────────────────────────────────────── */
 @media (max-width: 900px) {
-  .sidebar.sticky, div.sidebar {
-    width: 100% !important;
-    float: none !important;
-    padding-right: 0 !important;
+  div#main {
+    flex-direction: column !important;
+    padding: 1rem !important;
   }
-  article.page {
-    margin-left: 0 !important;
-    border-radius: 6px !important;
-    padding: 1.2rem !important;
+  div#main > div.sidebar {
+    flex: none !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+  div#main > article.page > .page__inner-wrap {
+    flex-direction: column !important;
   }
   .author__avatar img {
     width: 140px !important;
     height: 140px !important;
     max-width: 140px !important;
+  }
+  div#main > article.page {
+    border-radius: 6px !important;
+    padding: 1.2rem !important;
   }
 }
