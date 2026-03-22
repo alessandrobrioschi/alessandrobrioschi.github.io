@@ -64,65 +64,73 @@ a:hover { color: var(--accent-hover); }
 .greedy-nav a:hover { color: var(--accent) !important; }
 .greedy-nav .visible-links a::before { background: var(--accent) !important; }
 
-/* ─── Remove the horizontal line in the header image ────────────────── */
-.page__hero--overlay .page__title,
-.page__hero--overlay p,
+/* ─── Hero banner flush below masthead, remove inner lines ──────────── */
 .page__hero--overlay {
-  border-bottom: none !important;
+  margin-top: 0 !important;
 }
-/* This targets the <hr> or border that appears inside the banner */
 .page__hero--overlay::after,
 .page__hero--overlay::before {
   display: none !important;
 }
-.page__lead {
-  border-bottom: none !important;
-}
-/* Remove ANY hr inside the hero */
 .page__hero--overlay hr,
-.initial-content hr:first-of-type {
+.initial-content hr {
   display: none !important;
 }
 
-/* ─── Page hero flush below masthead ────────────────────────────────── */
-.page__hero--overlay {
-  margin-top: 0 !important;
-}
-
-/* ─── Overall layout background ─────────────────────────────────────── */
+/* ─── Overall layout: transparent background everywhere ─────────────── */
 #main,
 .page,
 .page__inner-wrap {
   background-color: transparent !important;
 }
 
-/* ─── SIDEBAR — wider, transparent, sits on parchment ───────────────── */
+/* ─── THE KEY FIX: use flexbox on the page wrapper ──────────────────── */
 /*
- * AcademicPages uses a float-based layout. The sidebar width is controlled
- * by the grid classes on .page and .sidebar. We override the width here
- * to make the sidebar column significantly wider (matching David's ~280px).
+ * Minimal Mistakes uses a float layout. We switch the page__inner-wrap
+ * to flexbox so the sidebar and article sit cleanly side by side with
+ * no overlap, no margin tricks needed.
  */
-.sidebar.sticky {
-  width: 280px !important;
-  min-width: 280px !important;
+.page__inner-wrap {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: flex-start !important;
+  gap: 2rem !important;
+  padding: 2rem 1.5rem !important;
+  max-width: 1200px !important;
+  margin: 0 auto !important;
+  box-sizing: border-box !important;
+}
+
+/* ─── SIDEBAR — fixed width, transparent ────────────────────────────── */
+.sidebar {
+  flex: 0 0 260px !important;
+  width: 260px !important;
+  min-width: 260px !important;
+  max-width: 260px !important;
   background-color: transparent !important;
   border: none !important;
   border-radius: 0 !important;
   box-shadow: none !important;
-  padding: 1.8rem 1rem 1rem 0 !important;
-  float: left !important;
+  padding: 0 !important;
+  /* cancel the float the theme applies */
+  float: none !important;
+  position: relative !important;
 }
 
-/* Also target the generic .sidebar class */
-.page__inner-wrap .sidebar,
-aside.sidebar {
-  background-color: transparent !important;
-  border: none !important;
-  border-radius: 0 !important;
-  box-shadow: none !important;
+/* ─── ARTICLE — white card, takes remaining space ────────────────────── */
+article.page {
+  flex: 1 1 auto !important;
+  min-width: 0 !important;        /* prevents flex overflow */
+  background-color: var(--bg-card) !important;
+  border-radius: 10px !important;
+  border: 1px solid var(--border) !important;
+  padding: 2rem 2.4rem !important;
+  margin: 0 !important;           /* remove any margin — flex gap handles spacing */
+  float: none !important;
+  width: auto !important;
 }
 
-/* ─── Avatar — large ─────────────────────────────────────────────────── */
+/* ─── Avatar ─────────────────────────────────────────────────────────── */
 .author__avatar {
   display: block !important;
   text-align: center !important;
@@ -139,7 +147,7 @@ aside.sidebar {
   margin: 0 auto !important;
 }
 
-/* ─── Name — larger serif ─────────────────────────────────────────────── */
+/* ─── Name ───────────────────────────────────────────────────────────── */
 .author__name {
   font-family: 'Lora', Georgia, serif !important;
   font-size: 1.35rem !important;
@@ -150,7 +158,7 @@ aside.sidebar {
   margin-bottom: 0.4rem !important;
 }
 
-/* ─── Tagline — bigger than before ───────────────────────────────────── */
+/* ─── Bio/tagline ─────────────────────────────────────────────────────── */
 .author__bio {
   font-size: 0.92rem !important;
   color: var(--text-mid) !important;
@@ -209,7 +217,7 @@ aside.sidebar {
   color: var(--text-muted) !important;
   flex-shrink: 0 !important;
 }
-/* Location line — no border */
+/* Location line — plain, no border */
 .author__urls li:first-child a {
   border: none !important;
   background: transparent !important;
@@ -229,22 +237,14 @@ aside.sidebar {
   .author__urls { display: flex !important; }
 }
 
-/* ─── WHITE CARD — only the content area ─────────────────────────────── */
-article.page {
-  background-color: var(--bg-card) !important;
-  border-radius: 10px !important;
-  border: 1px solid var(--border) !important;
-  padding: 2rem 2.4rem !important;
-  margin-left: 300px !important; /* leave room for the wider sidebar */
-}
-
+/* ─── Content area ────────────────────────────────────────────────────── */
 .page__content {
   background-color: transparent;
   font-size: 1rem;
   color: var(--text-primary);
 }
 
-/* ─── Remove the line under "About me" / page titles ─────────────────── */
+/* Remove the line under page titles everywhere */
 .page__title {
   font-family: 'Lora', Georgia, serif;
   font-size: 1.5rem;
@@ -254,13 +254,12 @@ article.page {
   margin-bottom: 1.3rem;
 }
 
-/* Also remove lines that the template adds via hr or pseudo-elements */
 .page__content hr,
 .page hr {
   display: none !important;
 }
 
-/* ─── Bullet list ─────────────────────────────────────────────────────── */
+/* Bullet list */
 .page__content ul {
   list-style: none;
   padding-left: 0;
@@ -297,10 +296,16 @@ article.page {
 
 /* ─── Responsive ─────────────────────────────────────────────────────── */
 @media (max-width: 900px) {
-  .sidebar.sticky {
+  .page__inner-wrap {
+    flex-direction: column !important;
+    padding: 1rem !important;
+    gap: 1rem !important;
+  }
+  .sidebar {
+    flex: none !important;
     width: 100% !important;
-    float: none !important;
-    padding: 1rem 0 !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
   }
   .author__avatar img {
     width: 140px !important;
@@ -308,8 +313,7 @@ article.page {
     max-width: 140px !important;
   }
   article.page {
-    margin-left: 0 !important;
-    border-radius: 0 !important;
+    border-radius: 6px !important;
     padding: 1.2rem !important;
   }
 }
