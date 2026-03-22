@@ -1,0 +1,279 @@
+/*
+ * custom.css — Visual theme for alessandrobrioschi.github.io
+ * Inspired by davidvandijcke.com
+ *
+ * HOW TO USE:
+ * 1. Place this file at: assets/css/custom.css  (in your GitHub repo)
+ * 2. Add this line to _includes/head/custom.html (create it if it doesn't exist):
+ *    <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+ * 3. In _config.yml, make sure you have NOT set a conflicting site_theme.
+ */
+
+/* ─── Google Font import ─────────────────────────────────────────────── */
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400&family=Source+Sans+3:wght@300;400;500;600&display=swap');
+
+/* ─── Colour palette (warm parchment tone, matching Van Dijcke) ─────── */
+:root {
+  --bg-page:        #f5f2ed;   /* warm off-white page background          */
+  --bg-sidebar:     #ffffff;   /* pure white sidebar card                 */
+  --bg-content:     #ffffff;   /* pure white main content area            */
+  --text-primary:   #1a1a1a;   /* near-black body text                    */
+  --text-secondary: #555550;   /* muted labels, meta text                 */
+  --text-muted:     #888882;   /* very muted (dates, small print)         */
+  --accent:         #2b5797;   /* link / highlight blue (academic)        */
+  --accent-hover:   #1a3a6a;   /* darker blue on hover                    */
+  --border-light:   #e8e4de;   /* subtle divider lines                    */
+  --sidebar-width:  220px;     /* sidebar profile column width            */
+}
+
+/* ─── Base typography ────────────────────────────────────────────────── */
+body {
+  font-family: 'Source Sans 3', 'Segoe UI', Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.72;
+  color: var(--text-primary);
+  background-color: var(--bg-page);
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Lora', Georgia, 'Times New Roman', serif;
+  font-weight: 500;
+  color: var(--text-primary);
+  letter-spacing: -0.01em;
+}
+
+p {
+  margin-bottom: 1.1em;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+a:hover {
+  color: var(--accent-hover);
+  border-bottom-color: var(--accent-hover);
+}
+
+/* ─── Page wrapper / layout ──────────────────────────────────────────── */
+.page {
+  background-color: var(--bg-content);
+}
+
+#main {
+  background-color: var(--bg-content);
+}
+
+.page__inner-wrap {
+  background-color: var(--bg-content);
+}
+
+/* ─── Masthead (top nav bar) ──────────────────────────────────────────── */
+.masthead {
+  background-color: var(--bg-content) !important;
+  border-bottom: 1px solid var(--border-light);
+  box-shadow: none;
+}
+
+.masthead__inner-wrap {
+  background-color: var(--bg-content);
+}
+
+.site-title,
+.masthead__menu-item a,
+.greedy-nav a {
+  font-family: 'Source Sans 3', sans-serif;
+  font-weight: 500;
+  color: var(--text-primary) !important;
+  font-size: 0.9rem;
+  letter-spacing: 0.01em;
+}
+
+.greedy-nav a:hover,
+.masthead__menu-item a:hover {
+  color: var(--accent) !important;
+}
+
+.greedy-nav .visible-links a::before {
+  background: var(--accent);
+}
+
+/* ─── Sidebar (author profile card) ──────────────────────────────────── */
+.sidebar {
+  background-color: var(--bg-sidebar);
+  border-radius: 10px;
+  border: 1px solid var(--border-light);
+  padding: 1.8rem 1.4rem !important;
+}
+
+/* Large circular avatar */
+.author__avatar img {
+  max-width: 160px !important;
+  min-width: 140px;
+  border-radius: 50% !important;
+  border: 3px solid var(--border-light);
+  display: block;
+  margin: 0 auto 0.8rem auto;
+}
+
+.author__avatar {
+  display: block;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+/* Name and bio */
+.author__name {
+  font-family: 'Lora', Georgia, serif;
+  font-size: 1.15rem;
+  font-weight: 500;
+  color: var(--text-primary);
+  text-align: center;
+  margin-bottom: 0.2rem;
+}
+
+.author__bio {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  text-align: center;
+  line-height: 1.4;
+  margin-bottom: 1rem;
+}
+
+/* Location / meta */
+.author__urls-wrapper {
+  text-align: center;
+}
+
+.author__urls {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  font-size: 0.84rem;
+}
+
+.author__urls li {
+  list-style: none;
+}
+
+.author__urls a {
+  color: var(--text-secondary);
+  border-bottom: none;
+  font-size: 0.84rem;
+  transition: color 0.15s;
+}
+
+.author__urls a:hover {
+  color: var(--accent);
+  border-bottom: none;
+}
+
+/* Toggle button (mobile) */
+.author__urls-wrapper .btn {
+  background: transparent;
+  border: 1px solid var(--border-light);
+  color: var(--text-secondary);
+  font-size: 0.8rem;
+  border-radius: 4px;
+  padding: 0.3rem 0.8rem;
+}
+
+/* ─── Main content area ───────────────────────────────────────────────── */
+.page__content {
+  font-size: 1rem;
+  color: var(--text-primary);
+}
+
+/* Bullet list styling for the homepage (matching Van Dijcke's favicon bullets) */
+.page__content ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 1.4em;
+}
+
+.page__content ul li {
+  position: relative;
+  padding-left: 1.5em;
+  margin-bottom: 0.85em;
+  line-height: 1.65;
+}
+
+.page__content ul li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.55em;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: var(--accent);
+  opacity: 0.7;
+}
+
+/* Keep nested lists with normal bullets */
+.page__content ul ul li::before {
+  width: 5px;
+  height: 5px;
+  opacity: 0.4;
+}
+
+/* Personal note / italic closer (blockquote style) */
+.page__content p:last-of-type {
+  color: var(--text-secondary);
+  font-size: 0.96rem;
+}
+
+/* ─── Page title ("About me" heading) ────────────────────────────────── */
+.page__title {
+  font-family: 'Lora', Georgia, serif;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: var(--text-primary);
+  border-bottom: 1px solid var(--border-light);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.4rem;
+}
+
+/* ─── Footer ─────────────────────────────────────────────────────────── */
+.page__footer {
+  background-color: var(--bg-page);
+  border-top: 1px solid var(--border-light);
+  color: var(--text-muted);
+  font-size: 0.8rem;
+}
+
+.page__footer a {
+  color: var(--text-muted);
+}
+
+.page__footer a:hover {
+  color: var(--accent);
+}
+
+/* ─── Body background (shaded page wrap) ─────────────────────────────── */
+html, body {
+  background-color: var(--bg-page) !important;
+}
+
+/* The white content card on a warm background */
+#page-wrapper,
+.initial-content {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* ─── Responsive tweaks ───────────────────────────────────────────────── */
+@media (max-width: 768px) {
+  .sidebar {
+    border-radius: 0;
+    border-left: none;
+    border-right: none;
+  }
+
+  .author__avatar img {
+    max-width: 120px !important;
+  }
+}
