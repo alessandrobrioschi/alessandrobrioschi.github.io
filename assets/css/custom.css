@@ -98,7 +98,7 @@ div#main > div.sidebar {
 div#main > article.page {
   flex: 1 1 auto !important;
   min-width: 0 !important;
-  max-width: 760px !important;        /* FIX 1 */
+  max-width: 760px !important;
   float: none !important;
   width: auto !important;
   margin: 0 !important;
@@ -246,10 +246,36 @@ div#main > article.page > .page__inner-wrap > section.page__content {
   padding: 0 !important;
 }
 
-/* Show links without toggle on desktop */
+/* ─── Desktop: show all links, hide the toggle button ───────────────── */
 @media (min-width: 64em) {
   .author__urls-wrapper button.btn { display: none !important; }
   .author__urls { display: flex !important; }
+}
+
+/* ─── Mobile: kill the floating dropdown, flow links normally ────────── */
+@media (max-width: 900px) {
+  .author__urls-wrapper {
+    position: static !important;
+  }
+  .author__urls-wrapper button.btn {
+    display: none !important;
+  }
+  .author__urls {
+    display: flex !important;
+    position: static !important;
+    float: none !important;
+    width: 100% !important;
+    max-width: 320px !important;
+    margin: 0 auto !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    border: none !important;
+    z-index: auto !important;
+  }
+  .author__urls li a {
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
 }
 
 /* ─── Page title — FIX 2: aligned with content, no underline ────────── */
@@ -259,9 +285,9 @@ div#main > article.page > .page__inner-wrap > section.page__content {
   font-weight: 500;
   border-bottom: none !important;
   padding-bottom: 0.3rem;
-  padding-left: 0 !important;       /* FIX 2 */
+  padding-left: 0 !important;
   margin-bottom: 1.3rem;
-  margin-left: 0 !important;        /* FIX 2 */
+  margin-left: 0 !important;
 }
 .page__content hr, .page hr { display: none !important; }
 
@@ -295,7 +321,7 @@ div#main > article.page > .page__inner-wrap > section.page__content {
 .page__footer a { color: var(--text-muted); }
 .page__footer a:hover { color: var(--accent); }
 
-/* ─── Responsive — FIX 4: improved mobile layout ────────────────────── */
+/* ─── Responsive ─────────────────────────────────────────────────────── */
 @media (max-width: 900px) {
   div#main {
     flex-direction: column !important;
@@ -305,9 +331,10 @@ div#main > article.page > .page__inner-wrap > section.page__content {
     flex: none !important;
     width: 100% !important;
     max-width: 100% !important;
+    text-align: center !important;
   }
   div#main > article.page {
-    max-width: 100% !important;     /* FIX 4: full width on tablet/mobile */
+    max-width: 100% !important;
     border-radius: 6px !important;
     padding: 1.2rem !important;
   }
@@ -321,7 +348,6 @@ div#main > article.page > .page__inner-wrap > section.page__content {
   }
 }
 
-/* FIX 4: phones */
 @media (max-width: 480px) {
   div#main {
     padding: 0.6rem !important;
@@ -340,6 +366,6 @@ div#main > article.page > .page__inner-wrap > section.page__content {
     font-size: 1.2rem !important;
   }
   .greedy-nav a, .greedy-nav .visible-links a {
-    font-size: 0.88rem !important;  /* slightly smaller on very small screens */
+    font-size: 0.88rem !important;
   }
 }
