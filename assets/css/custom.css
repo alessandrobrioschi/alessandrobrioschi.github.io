@@ -318,11 +318,13 @@ div#main > article.page > .page__inner-wrap > section.page__content {
     max-width: 100% !important;
     min-width: 0 !important;
     text-align: center !important;
+    order: 2 !important;        /* sidebar moves BELOW content on mobile */
   }
   div#main > article.page {
     max-width: 100% !important;
     border-radius: 6px !important;
     padding: 1.2rem !important;
+    order: 1 !important;        /* content appears FIRST on mobile */
   }
   div#main > article.page > .page__inner-wrap {
     flex-direction: column !important;
