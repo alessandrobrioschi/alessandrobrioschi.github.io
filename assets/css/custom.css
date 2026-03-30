@@ -43,7 +43,7 @@ a:hover { color: var(--accent-hover); }
 .masthead__inner-wrap, .greedy-nav {
   background-color: transparent !important;
 }
-/* FIX 3 — nav links bigger: 0.88rem → 1rem, weight 500 → 600 */
+/* FIX 3 — nav links bigger */
 .site-title, .greedy-nav a, .greedy-nav .visible-links a {
   font-family: 'Source Sans 3', sans-serif !important;
   font-weight: 600 !important;
@@ -59,7 +59,7 @@ a:hover { color: var(--accent-hover); }
 .page__hero--overlay::before { display: none !important; }
 .initial-content hr { display: none !important; }
 
-/* ─── Strip ALL backgrounds so only our targets get colour ───────────── */
+/* ─── Strip ALL backgrounds ──────────────────────────────────────────── */
 body, #main, .page, .page__inner-wrap,
 .page__content-wrapper, .wrapper,
 article.page, section.page__content {
@@ -68,7 +68,7 @@ article.page, section.page__content {
   box-shadow: none !important;
 }
 
-/* ─── #main: flex row — sidebar and article side by side ─────────────── */
+/* ─── #main layout ───────────────────────────────────────────────────── */
 div#main {
   display: flex !important;
   flex-direction: row !important;
@@ -94,7 +94,7 @@ div#main > div.sidebar {
   margin: 0 !important;
 }
 
-/* ─── ARTICLE — white card; FIX 1: cap width so box doesn't over-stretch */
+/* ─── ARTICLE — white card ───────────────────────────────────────────── */
 div#main > article.page {
   flex: 1 1 auto !important;
   min-width: 0 !important;
@@ -108,17 +108,12 @@ div#main > article.page {
   border: 1px solid var(--border) !important;
 }
 
-/* ─── FIX: .page__inner-wrap must NOT have its own background/border ─── */
 div#main > article.page > .page__inner-wrap {
   background-color: transparent !important;
   border: none !important;
   box-shadow: none !important;
   padding: 0 !important;
   margin: 0 !important;
-}
-
-/* ─── OTHER PAGES (Research, Teaching etc): sidebar inside article ───── */
-div#main > article.page > .page__inner-wrap {
   display: flex !important;
   flex-direction: row !important;
   align-items: flex-start !important;
@@ -182,15 +177,41 @@ div#main > article.page > .page__inner-wrap > section.page__content {
   margin-bottom: 1.2rem !important;
 }
 
-/* ─── Social link pills ───────────────────────────────────────────────── */
-.author__urls-wrapper { margin-top: 0.3rem; }
-.author__urls {
+/* ─── Social links — ALWAYS visible, never a dropdown ───────────────── */
+/*
+ * The theme JS toggles visibility by setting display:none on .author__urls
+ * and toggling a class on the wrapper. We override everything so the links
+ * are always in normal document flow, on every screen size.
+ */
+.author__urls-wrapper {
+  position: static !important;
+}
+.author__urls-wrapper button.btn--inverse {
+  display: none !important;           /* hide the "Follow" toggle button */
+}
+/* Force the list always visible regardless of JS-added classes */
+.author__urls,
+.author__urls-wrapper .author__urls {
   display: flex !important;
   flex-direction: column !important;
   gap: 5px !important;
   padding: 0 !important;
   margin: 0 !important;
   list-style: none !important;
+  /* kill any dropdown positioning the JS may apply */
+  position: static !important;
+  top: auto !important;
+  left: auto !important;
+  right: auto !important;
+  float: none !important;
+  z-index: auto !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  border: none !important;
+  width: 100% !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  pointer-events: auto !important;
 }
 .author__urls li {
   list-style: none !important;
@@ -246,39 +267,7 @@ div#main > article.page > .page__inner-wrap > section.page__content {
   padding: 0 !important;
 }
 
-/* ─── Desktop: show all links, hide the toggle button ───────────────── */
-@media (min-width: 64em) {
-  .author__urls-wrapper button.btn { display: none !important; }
-  .author__urls { display: flex !important; }
-}
-
-/* ─── Mobile: kill the floating dropdown, flow links normally ────────── */
-@media (max-width: 900px) {
-  .author__urls-wrapper {
-    position: static !important;
-  }
-  .author__urls-wrapper button.btn {
-    display: none !important;
-  }
-  .author__urls {
-    display: flex !important;
-    position: static !important;
-    float: none !important;
-    width: 100% !important;
-    max-width: 320px !important;
-    margin: 0 auto !important;
-    background: transparent !important;
-    box-shadow: none !important;
-    border: none !important;
-    z-index: auto !important;
-  }
-  .author__urls li a {
-    width: 100% !important;
-    box-sizing: border-box !important;
-  }
-}
-
-/* ─── Page title — FIX 2: aligned with content, no underline ────────── */
+/* ─── Page title ─────────────────────────────────────────────────────── */
 .page__title {
   font-family: 'Lora', Georgia, serif;
   font-size: 1.5rem;
@@ -326,6 +315,7 @@ div#main > article.page > .page__inner-wrap > section.page__content {
   div#main {
     flex-direction: column !important;
     padding: 1rem !important;
+    gap: 1rem !important;
   }
   div#main > div.sidebar {
     flex: none !important;
@@ -346,12 +336,17 @@ div#main > article.page > .page__inner-wrap > section.page__content {
     height: 140px !important;
     max-width: 140px !important;
   }
+  /* Center and constrain links on mobile */
+  .author__urls {
+    max-width: 340px !important;
+    margin: 0 auto !important;
+  }
 }
 
 @media (max-width: 480px) {
   div#main {
     padding: 0.6rem !important;
-    gap: 1rem !important;
+    gap: 0.8rem !important;
   }
   div#main > article.page {
     padding: 1rem !important;
