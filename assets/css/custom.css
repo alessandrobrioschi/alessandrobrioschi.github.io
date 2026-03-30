@@ -43,11 +43,12 @@ a:hover { color: var(--accent-hover); }
 .masthead__inner-wrap, .greedy-nav {
   background-color: transparent !important;
 }
+/* FIX 3 — nav links bigger: 0.88rem → 1rem, weight 500 → 600 */
 .site-title, .greedy-nav a, .greedy-nav .visible-links a {
   font-family: 'Source Sans 3', sans-serif !important;
-  font-weight: 500 !important;
+  font-weight: 600 !important;
   color: var(--text-primary) !important;
-  font-size: 0.88rem !important;
+  font-size: 1rem !important;
 }
 .greedy-nav a:hover { color: var(--accent) !important; }
 .greedy-nav .visible-links a::before { background: var(--accent) !important; }
@@ -68,7 +69,6 @@ article.page, section.page__content {
 }
 
 /* ─── #main: flex row — sidebar and article side by side ─────────────── */
-/* From the source: #main directly contains .sidebar and article.page    */
 div#main {
   display: flex !important;
   flex-direction: row !important;
@@ -94,10 +94,11 @@ div#main > div.sidebar {
   margin: 0 !important;
 }
 
-/* ─── ARTICLE — white card, fills remaining width ────────────────────── */
+/* ─── ARTICLE — white card; FIX 1: cap width so box doesn't over-stretch */
 div#main > article.page {
   flex: 1 1 auto !important;
   min-width: 0 !important;
+  max-width: 760px !important;        /* FIX 1 */
   float: none !important;
   width: auto !important;
   margin: 0 !important;
@@ -108,7 +109,6 @@ div#main > article.page {
 }
 
 /* ─── FIX: .page__inner-wrap must NOT have its own background/border ─── */
-/* This was causing the inner darker rectangle on the homepage            */
 div#main > article.page > .page__inner-wrap {
   background-color: transparent !important;
   border: none !important;
@@ -118,10 +118,6 @@ div#main > article.page > .page__inner-wrap {
 }
 
 /* ─── OTHER PAGES (Research, Teaching etc): sidebar inside article ───── */
-/*
- * On non-homepage layouts the sidebar is nested INSIDE article.page.
- * We switch article.page itself to flex so its children line up.
- */
 div#main > article.page > .page__inner-wrap {
   display: flex !important;
   flex-direction: row !important;
@@ -256,14 +252,16 @@ div#main > article.page > .page__inner-wrap > section.page__content {
   .author__urls { display: flex !important; }
 }
 
-/* ─── Page title — no underline ─────────────────────────────────────── */
+/* ─── Page title — FIX 2: aligned with content, no underline ────────── */
 .page__title {
   font-family: 'Lora', Georgia, serif;
   font-size: 1.5rem;
   font-weight: 500;
   border-bottom: none !important;
   padding-bottom: 0.3rem;
+  padding-left: 0 !important;       /* FIX 2 */
   margin-bottom: 1.3rem;
+  margin-left: 0 !important;        /* FIX 2 */
 }
 .page__content hr, .page hr { display: none !important; }
 
@@ -297,7 +295,7 @@ div#main > article.page > .page__inner-wrap > section.page__content {
 .page__footer a { color: var(--text-muted); }
 .page__footer a:hover { color: var(--accent); }
 
-/* ─── Responsive ─────────────────────────────────────────────────────── */
+/* ─── Responsive — FIX 4: improved mobile layout ────────────────────── */
 @media (max-width: 900px) {
   div#main {
     flex-direction: column !important;
@@ -308,6 +306,11 @@ div#main > article.page > .page__inner-wrap > section.page__content {
     width: 100% !important;
     max-width: 100% !important;
   }
+  div#main > article.page {
+    max-width: 100% !important;     /* FIX 4: full width on tablet/mobile */
+    border-radius: 6px !important;
+    padding: 1.2rem !important;
+  }
   div#main > article.page > .page__inner-wrap {
     flex-direction: column !important;
   }
@@ -316,8 +319,27 @@ div#main > article.page > .page__inner-wrap > section.page__content {
     height: 140px !important;
     max-width: 140px !important;
   }
+}
+
+/* FIX 4: phones */
+@media (max-width: 480px) {
+  div#main {
+    padding: 0.6rem !important;
+    gap: 1rem !important;
+  }
   div#main > article.page {
-    border-radius: 6px !important;
-    padding: 1.2rem !important;
+    padding: 1rem !important;
+    border-radius: 4px !important;
+  }
+  .author__avatar img {
+    width: 110px !important;
+    height: 110px !important;
+    max-width: 110px !important;
+  }
+  .page__title {
+    font-size: 1.2rem !important;
+  }
+  .greedy-nav a, .greedy-nav .visible-links a {
+    font-size: 0.88rem !important;  /* slightly smaller on very small screens */
   }
 }
