@@ -11,7 +11,7 @@ header:
 
 ## Peer-Reviewed Publications
 
-- **"Networks Paving the Way: Apprenticeship, Guilds, and Access to Mastership in Early Modern Genoa"**. *Economic History Review* (forthcoming). [Link to WP version](https://www.quceh.org.uk/uploads/1/0/5/5/10558478/wp25-08.pdf)
+- **"Networks Paving the Way: Apprenticeship, Guilds, and Access to Mastership in Early Modern Genoa"**. *Economic History Review* (forthcoming). [[WP November 2025]](https://www.quceh.org.uk/uploads/1/0/5/5/10558478/wp25-08.pdf)
 
 - [**"The Determinants of the Skill Premium in Late Medieval and Early Modern Europe, 1400-1800"**](https://doi.org/10.1093/ereh/heaf003) (with Mattia Fochesato). *European Review of Economic History*, vol. 29, no. 4 (2025), pp. 534-557.
 
