@@ -11,20 +11,11 @@ header:
 
 ## Peer-Reviewed Publications
 
+- **"Networks Paving the Way: Apprenticeship, Guilds, and Access to Mastership in Early Modern Genoa"**. *Economic History Review* (forthcoming). [Link to WP version](https://www.quceh.org.uk/uploads/1/0/5/5/10558478/wp25-08.pdf)
+
 - [**"The Determinants of the Skill Premium in Late Medieval and Early Modern Europe, 1400-1800"**](https://doi.org/10.1093/ereh/heaf003) (with Mattia Fochesato). *European Review of Economic History*, vol. 29, no. 4 (2025), pp. 534-557.
 
 ## Working Papers & Research in Progress
-
-- [**"Networks Paving the Way: Apprenticeship, Guilds, and Access to Mastership in Early Modern Genoa"**](https://www.quceh.org.uk/uploads/1/0/5/5/10558478/wp25-08.pdf)
-  <br>
-  *QUCEH Working Paper Series, Paper No. 25-08. R&R Economic History Review*
-  <br>
-  <details class="abstract">
-    <summary> [Abstract]</summary>
-    <p><em>
-      This paper investigates how kinship and professional networks shaped labour market outcomes in the guild-based labour market of early modern Genoa. Using a newly constructed dataset of over 8,000 apprenticeship contracts (1451–1530), I examine the extent to which family and guild connections influenced apprentices’ chances of attaining mastership. Using a probabilistic record-linkage strategy to reconstruct individual career trajectories, I show that apprentices embedded in kinship or guild networks were substantially more likely to become masters. These advantages operated through multiple channels, including shorter apprenticeship contracts and greater flexibility in training careers, and persisted even during periods of economic contraction, suggesting that apprenticeship in Genoa combined formally open access to training with strong informal mechanisms that structured advancement within skilled trades. The findings contribute to debates on the role of guilds and social networks in pre-industrial labour markets, highlighting how institutions could simultaneously support skill formation and reproduce inequality.
-    </em></p>
-  </details>
 
 - **"Saint Roch Playing Favourites? Plague, Skill, and Wage Inequality in Early Modern Venice"**
   <br>
