@@ -29,7 +29,7 @@ header:
   </details>
   <ul>
   <li><em>Award:</em> <a href="https://ehs.org.uk/conference/2026-provisional-programme/">New Researcher Paper Prize, EHS 2026</a></li>
-</ul>
+  </ul>
 
 
 - **"By the Roll of a Die: Public Functions and Private Wealth in Pre-Modern Europe"** (with Erich Battistin and Mattia Fochesato)
