@@ -27,6 +27,10 @@ header:
       This paper examines how the 1629-31 plague in Venice reshaped apprenticeship wages, providing new micro-level evidence on labour-market adjustment to severe demographic shocks. Drawing on more than 16,000 apprenticeship contracts, I reconstruct real remuneration, including both cash and in-kind components, and compare wage trajectories across skilled and unskilled trades before and after the epidemic. Using a difference-in-differences design, I show that, although real wages rose after the epidemic, the increase was substantially larger in skill-intensive trades, raising the post-plague skill premium by approximately 10-12 per cent. This asymmetry reflects heterogeneous demand conditions: capital-intensive, export-oriented trades faced lower labour demand contractions and stronger capital-skill complementarities, amplifying pre-existing differentials during a period of acute demographic stress. My findings therefore suggest that, contrary to the equalising effects often attributed to the Black Death, the 1629-31 plague reinforced wage differentials and deepened labour market stratification in early modern Venice.
     </em></p>
   </details>
+  <li>
+        <em>Award:</em> <a href="[https://www.lemonde.fr/idees/article/2023/03/16/entre-1786-et-1789-les-ateliers-normands-sont-vite-passes-du-doux-commerce-a-la-crise-sociale_6165680_3232.html](https://ehs.org.uk/conference/2026-provisional-programme/)">EHS 2026</a>
+      </li>
+
 
 - **"By the Roll of a Die: Public Functions and Private Wealth in Pre-Modern Europe"** (with Erich Battistin and Mattia Fochesato)
   <br>
