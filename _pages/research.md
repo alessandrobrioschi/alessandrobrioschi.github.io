@@ -28,7 +28,7 @@ header:
     </em></p>
   </details>
   <li>
-        <em>Award:</em> <a href="[https://www.lemonde.fr/idees/article/2023/03/16/entre-1786-et-1789-les-ateliers-normands-sont-vite-passes-du-doux-commerce-a-la-crise-sociale_6165680_3232.html](https://ehs.org.uk/conference/2026-provisional-programme/)">EHS 2026</a>
+        <em>Award:</em> <a href="[[https://www.lemonde.fr/idees/article/2023/03/16/entre-1786-et-1789-les-ateliers-normands-sont-vite-passes-du-doux-commerce-a-la-crise-sociale_6165680_3232.html](https://ehs.org.uk/conference/2026-provisional-programme/)](EHS 2026)"></a>
       </li>
 
 
