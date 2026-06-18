@@ -19,8 +19,8 @@
 html, body {
   background-color: var(--bg-page) !important;
   font-family: 'Source Sans 3', 'Segoe UI', Helvetica, Arial, sans-serif;
-  font-size: 17px;
-  line-height: 1.72;
+  font-size: 16px;
+  line-height: 1.55;
   color: var(--text-primary);
 }
 h1, h2, h3, h4 {
@@ -280,8 +280,8 @@ div#main > article.page > .page__inner-wrap > section.page__content {
 .page__content ul li {
   position: relative;
   padding-left: 1.5em;
-  margin-bottom: 0.85em;
-  line-height: 1.65;
+  margin-bottom: 0.6em;
+  line-height: 1.55;
 }
 .page__content ul li::before {
   content: '';
