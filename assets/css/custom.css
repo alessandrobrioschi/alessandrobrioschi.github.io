@@ -54,7 +54,10 @@ a:hover { color: var(--accent-hover); }
 .greedy-nav .visible-links a::before { background: var(--accent) !important; }
 
 /* ─── Hero banner ────────────────────────────────────────────────────── */
-.page__hero--overlay { margin-top: 0 !important; }
+.page__hero--overlay {
+  margin-top: 0 !important;
+  padding: 1.5em 0 !important; /* default theme padding is 3em 0 — this shortens the banner without touching font size */
+}
 .page__hero--overlay::after,
 .page__hero--overlay::before { display: none !important; }
 .initial-content hr { display: none !important; }
