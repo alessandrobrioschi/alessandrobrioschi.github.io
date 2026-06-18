@@ -98,7 +98,7 @@ div#main > div.sidebar {
 div#main > article.page {
   flex: 1 1 auto !important;
   min-width: 0 !important;
-  max-width: 500px !important;
+  max-width: 620px !important;
   float: none !important;
   width: auto !important;
   margin: 0 !important;
@@ -274,6 +274,11 @@ div#main > article.page > .page__inner-wrap > section.page__content {
   margin-left: 0 !important;
 }
 .page__content hr, .page hr { display: none !important; }
+
+/* ─── Larger body text inside the content box ───────────────────────── */
+.page__content {
+  font-size: 1.15rem !important;
+}
 
 /* ─── Bullet list ─────────────────────────────────────────────────────── */
 .page__content ul { list-style: none; padding-left: 0; margin-bottom: 1.4em; }
