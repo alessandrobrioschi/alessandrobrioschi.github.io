@@ -82,9 +82,9 @@ div#main {
 
 /* ─── Top-level sidebar (homepage) ───────────────────────────────────── */
 div#main > div.sidebar {
-  flex: 0 0 260px !important;
-  width: 260px !important;
-  min-width: 260px !important;
+  flex: 0 0 320px !important;
+  width: 320px !important;
+  min-width: 320px !important;
   position: relative !important;
   float: none !important;
   background-color: transparent !important;
@@ -277,7 +277,7 @@ div#main > article.page > .page__inner-wrap > section.page__content {
 
 /* ─── Larger body text inside the content box ───────────────────────── */
 .page__content {
-  font-size: 1.075rem !important;
+  font-size: 1.05rem !important;
 }
 
 /* ─── Bullet list ─────────────────────────────────────────────────────── */
