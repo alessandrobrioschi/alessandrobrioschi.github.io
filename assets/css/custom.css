@@ -277,7 +277,7 @@ div#main > article.page > .page__inner-wrap > section.page__content {
 
 /* ─── Larger body text inside the content box ───────────────────────── */
 .page__content {
-  font-size: 1.15rem !important;
+  font-size: 1.075rem !important;
 }
 
 /* ─── Bullet list ─────────────────────────────────────────────────────── */
