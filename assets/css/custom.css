@@ -73,7 +73,7 @@ div#main {
   display: flex !important;
   flex-direction: row !important;
   align-items: flex-start !important;
-  gap: 2rem !important;
+  gap: 3rem !important;
   padding: 2rem !important;
   max-width: 1200px !important;
   margin: 0 auto !important;
@@ -82,9 +82,9 @@ div#main {
 
 /* ─── Top-level sidebar (homepage) ───────────────────────────────────── */
 div#main > div.sidebar {
-  flex: 0 0 320px !important;
-  width: 320px !important;
-  min-width: 320px !important;
+  flex: 0 0 280px !important;
+  width: 280px !important;
+  min-width: 280px !important;
   position: relative !important;
   float: none !important;
   background-color: transparent !important;
@@ -92,6 +92,32 @@ div#main > div.sidebar {
   box-shadow: none !important;
   padding: 0 !important;
   margin: 0 !important;
+}
+
+/* ─── Homepage sidebar: left-aligned, larger photo (desktop only) ─────
+   Scoped to div#main > div.sidebar so the nested sidebar on
+   Research/Teaching/CV/Contact pages is untouched, and wrapped in a
+   min-width query so the phone/tablet centered layout is untouched. */
+@media (min-width: 901px) {
+  div#main > div.sidebar .author__avatar {
+    text-align: left !important;
+  }
+  div#main > div.sidebar .author__avatar img {
+    width: 250px !important;
+    height: 250px !important;
+    max-width: 250px !important;
+    margin: 0 !important;
+  }
+  div#main > div.sidebar .author__content {
+    text-align: left !important;
+  }
+  div#main > div.sidebar .author__name {
+    text-align: left !important;
+    font-size: 1.75rem !important;
+  }
+  div#main > div.sidebar .author__bio {
+    text-align: left !important;
+  }
 }
 
 /* ─── White card article ─────────────────────────────────────────────── */
@@ -277,7 +303,7 @@ div#main > article.page > .page__inner-wrap > section.page__content {
 
 /* ─── Larger body text inside the content box ───────────────────────── */
 .page__content {
-  font-size: 1.05rem !important;
+  font-size: 1.075rem !important;
 }
 
 /* ─── Bullet list ─────────────────────────────────────────────────────── */
