@@ -13,7 +13,7 @@ header:
 
 Welcome to my webpage!
 
-* I am an economic historian working on human capital, labour markets, and the long-run origins of inequality. My [research](/research) examines how pre-industrial institutions governing the formation and transmission of skills shaped wage inequality and economic opportunity across European cities between the late medieval and early   modern periods.
+I am an economic historian working on human capital, labour markets, and the long-run origins of inequality. My [research](/research) examines how pre-industrial institutions governing the formation and transmission of skills shaped wage inequality and economic opportunity across European cities between the late medieval and early   modern periods.
 
 * I am completing my PhD in Economic History at [Queen's University Belfast](https://www.qub.ac.uk/), where I was supervised by [Prof. John Turner](https://www.qub.ac.uk/schools/queens-business-school/people/academic-staff/AllAcademicStaffProfiles/Turner.html) and [Dr. Arcangelo Dimico](https://www.qub.ac.uk/schools/queens-business-school/people/academic-staff/AllAcademicStaffProfiles/Dimico.html). You can find my [CV](/cv) here or reach me at             [abrioschi01@qub.ac.uk](mailto:abrioschi01@qub.ac.uk).
 
