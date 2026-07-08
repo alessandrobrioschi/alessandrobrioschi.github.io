@@ -355,6 +355,8 @@ div#main > article.page > .page__inner-wrap > section.page__content {
     min-width: 0 !important;
     text-align: center !important;
     order: 2 !important;        /* sidebar moves BELOW content on mobile */
+    left: 0 !important;         /* reset desktop offset — prevents sidebar clipping off-screen */
+    top: 0 !important;
   }
   div#main > article.page {
     max-width: 100% !important;
