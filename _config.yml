@@ -11,7 +11,7 @@ locale                   : "en-US"
 title                    : "Alessandro Brioschi"
 title_separator          : "-"
 name                     : &name "Alessandro Brioschi"
-description              : &description "PhD Student in Economic History, Queen’s University Belfast"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Postdoctoral Researcher in Economic History, Sant'Anna School of Advanced Studies"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://alessandrobrioschi.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "alessandrobrioschi/alessandrobrioschi.github.io"
@@ -81,8 +81,8 @@ analytics:
 author:
   name             : "Alessandro Brioschi"
   avatar           : "brioschi_headshot_square.JPG"
-  bio              : "PhD Student in Economic History, Queen’s University Belfast"
-  location         : "Belfast"
+  bio              : "Postdoctoral Researcher in Economic History, Sant'Anna School of Advanced Studies"
+  location         : "Pisa"
   employer         : 
   pubmed           :
   googlescholar    : "https://scholar.google.it/citations?hl=it&user=_3Y-MtoAAAAJ"
