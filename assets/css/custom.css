@@ -309,6 +309,7 @@ div#main > article.page > .page__inner-wrap > section.page__content {
 /* ─── Larger body text inside the content box ───────────────────────── */
 .page__content {
   font-size: 1.075rem !important;
+  text-align: justify !important;
 }
 
 /* ─── Bullet list ─────────────────────────────────────────────────────── */
@@ -325,8 +326,8 @@ div#main > article.page > .page__inner-wrap > section.page__content {
   left: 0; top: 0.6em;
   width: 7px; height: 7px;
   border-radius: 50%;
-  background-color: var(--accent);
-  opacity: 0.6;
+  background-color: var(--text-primary);
+  opacity: 0.7;
 }
 
 /* ─── Footer ─────────────────────────────────────────────────────────── */
