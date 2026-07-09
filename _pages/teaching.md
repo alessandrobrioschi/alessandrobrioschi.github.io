@@ -11,7 +11,7 @@ header:
 
 **ECO1003 - Statistical Methods, Queen's University Belfast (Spring 2025, Spring 2026)**
 
-  - I am Graduate Teaching Assistant in this first-year undergraduate course, which provides a knowledge and understanding of elementary statistical procedures and some experience of their application in economics and the social sciences.
+  - Graduate Teaching Assistant in this first-year undergraduate course, which provides a knowledge and understanding of elementary statistical procedures and some experience of their application in economics and the social sciences.
 
   - Module coordinator: [Dr. Aldo Elizalde](https://www.qub.ac.uk/schools/queens-business-school/people/academic-staff/AllAcademicStaffProfiles/Elizalde.html)
 
