@@ -10,7 +10,7 @@ header:
 ---
 **Email:**
 <br>
-[abrioschi01@qub.ac.uk](mailto:abrioschi01@qub.ac.uk)
+[alessandro.brioschi@santannapisa.it](mailto:alessandro.brioschi@santannapisa.it)
 <br>
 
 **X Profile:**
@@ -20,11 +20,10 @@ header:
 
 **Office address:**
 <br>
-Centre for Economics, Policy, and History  
-Queen's Business School  
-Queen's University Belfast  
-Riddel Hall, 185 Stranmillis Road  
-Belfast BT9 5EE, UK
+Scuola Superiore Sant’Anna 
+Piazza Martiri della Libertà, 33 
+Pisa, 56127, Italy
+
 
 **Academic Profiles**
 <br>
