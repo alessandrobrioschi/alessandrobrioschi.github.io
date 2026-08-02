@@ -410,33 +410,42 @@ div#main > article.page > .page__inner-wrap > section.page__content {
 }
 
 /* ─── FIX: reclaim the dead space on the right of the text ────────────────
-   The theme always emits an (empty) <footer class="page__meta"> inside
+   The theme always emits an empty <footer class="page__meta"> inside
    .page__inner-wrap, and _page.scss forces it to width:100% via Susy's
    full() mixin. Because .page__inner-wrap is a flex ROW here, that empty
    footer became a competing flex item and stole ~115px + the 2rem gap from
-   the text column — hence the big white margin on the right.
-   Fix: drop the empty footer/share blocks out of the row and give
-   .page__content a flex-basis of 0 so it fills the card edge to edge.
-   Desktop only — the ≤900px column layout is left exactly as it was. */
+   the text column — hence the white margin on the right.
+   Desktop only — the <=900px column layout is left exactly as it was. */
 @media (min-width: 901px) {
+  /* Row gap 0 so wrapped rows add no vertical dead space; column gap kept. */
   div#main > article.page > .page__inner-wrap {
     flex-wrap: wrap !important;
+    gap: 0 2rem !important;
   }
+
+  /* flex-basis 0 => the text column fills the card edge to edge. */
   div#main > article.page > .page__inner-wrap > section.page__content {
     flex: 1 1 0 !important;
     width: auto !important;
     max-width: 100% !important;
   }
-  div#main > article.page > .page__inner-wrap > footer.page__meta:empty,
-  div#main > article.page > .page__inner-wrap > .page__share:empty {
+
+  /* Hide the meta footer / share block when they contain no elements.
+     NB: :empty does NOT work here — Jekyll leaves whitespace inside the
+     tag, so the element is never truly empty. :has(*) tests for real
+     element children instead. */
+  div#main > article.page > .page__inner-wrap > footer.page__meta:not(:has(*)),
+  div#main > article.page > .page__inner-wrap > .page__share:not(:has(*)) {
     display: none !important;
   }
-  /* Safety net: if either block ever does get content, put it on its own
-     full-width row underneath rather than beside the text. */
+
+  /* If they ever do get content, give them their own full-width row
+     underneath the text rather than a column beside it. */
   div#main > article.page > .page__inner-wrap > footer.page__meta,
   div#main > article.page > .page__inner-wrap > .page__share,
   div#main > article.page > .page__inner-wrap > nav.pagination {
     flex: 0 0 100% !important;
     width: 100% !important;
+    margin-top: 1.5rem !important;
   }
 }
