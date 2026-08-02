@@ -408,3 +408,35 @@ div#main > article.page > .page__inner-wrap > section.page__content {
     max-width: 100% !important;
   }
 }
+
+/* ─── FIX: reclaim the dead space on the right of the text ────────────────
+   The theme always emits an (empty) <footer class="page__meta"> inside
+   .page__inner-wrap, and _page.scss forces it to width:100% via Susy's
+   full() mixin. Because .page__inner-wrap is a flex ROW here, that empty
+   footer became a competing flex item and stole ~115px + the 2rem gap from
+   the text column — hence the big white margin on the right.
+   Fix: drop the empty footer/share blocks out of the row and give
+   .page__content a flex-basis of 0 so it fills the card edge to edge.
+   Desktop only — the ≤900px column layout is left exactly as it was. */
+@media (min-width: 901px) {
+  div#main > article.page > .page__inner-wrap {
+    flex-wrap: wrap !important;
+  }
+  div#main > article.page > .page__inner-wrap > section.page__content {
+    flex: 1 1 0 !important;
+    width: auto !important;
+    max-width: 100% !important;
+  }
+  div#main > article.page > .page__inner-wrap > footer.page__meta:empty,
+  div#main > article.page > .page__inner-wrap > .page__share:empty {
+    display: none !important;
+  }
+  /* Safety net: if either block ever does get content, put it on its own
+     full-width row underneath rather than beside the text. */
+  div#main > article.page > .page__inner-wrap > footer.page__meta,
+  div#main > article.page > .page__inner-wrap > .page__share,
+  div#main > article.page > .page__inner-wrap > nav.pagination {
+    flex: 0 0 100% !important;
+    width: 100% !important;
+  }
+}
