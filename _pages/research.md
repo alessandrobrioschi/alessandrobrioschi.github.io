@@ -17,21 +17,20 @@ header:
 
 ## Working Papers & Research in Progress
 
-- **"Saint Roch Playing Favourites? Plague, Skill, and Wage Inequality in Early Modern Venice"**
+- **"Saint Roch Playing Favourites? Plague, Product-Market Exposure and Apprentice Wages in Venice, 1594-1663"**
   <br>
   *Work in progress*
   <br>
   <details class="abstract">
     <summary> [Abstract]</summary>
     <p><em>
-      This paper examines how the 1629-31 plague in Venice reshaped apprenticeship wages, providing new micro-level evidence on labour-market adjustment to severe demographic shocks. Drawing on more than 16,000 apprenticeship contracts, I reconstruct real remuneration, including both cash and in-kind components, and compare wage trajectories across skilled and unskilled trades before and after the epidemic. Using a difference-in-differences design, I show that, although real wages rose after the epidemic, the increase was substantially larger in skill-intensive trades, raising the post-plague skill premium by approximately 10-12 per cent. This asymmetry reflects heterogeneous demand conditions: capital-intensive, export-oriented trades faced lower labour demand contractions and stronger capital-skill complementarities, amplifying pre-existing differentials during a period of acute demographic stress. My findings therefore suggest that, contrary to the equalising effects often attributed to the Black Death, the 1629-31 plague reinforced wage differentials and deepened labour market stratification in early modern Venice.
+          I examine how the 1629-31 plague reshaped apprenticeship remuneration in Venice, and show that its distributional consequences ran along the lines of product-market exposure rather than of occupational hierarchy. Drawing on more than 16,000 apprenticeship contracts, I reconstruct real remuneration inclusive of cash and in-kind components and compare its trajectory across export-intensive and non-export-intensive trades. Using a difference-in-differences design, I find that real remuneration rose in both segments after the plague but by approximately 11 per cent more in export-intensive trades, an advantage that persisted for three decades and cannot be attributed to changes in contract duration, in the composition of entrants, or in the structure of payment. The divergence is instead consistent with a uniform contraction in labour supply meeting an asymmetric contraction in product demand, since external markets were less affected by an epidemic whose severity was without parallel elsewhere in Europe. My findings therefore suggest that, contrary to the equalising effects commonly attributed to the Black Death, the 1629-31 plague widened wage differentials among Venetian apprentices.
     </em></p>
   </details>
   <ul>
-  <li><em>Award:</em> <a href="https://ehs.org.uk/conference/2026-provisional-programme/">New Researcher Paper Prize, EHS 2026</a></li>
+  <li><em>Award:</em> <a href="https://ehs.org.uk/society/grants-prizes/new-researcher-paper-prize-winners/">New Researcher Paper Prize, EHS 2026</a></li>
   </ul>
-
-
+  
 - **"By the Roll of a Die: Public Functions and Private Wealth in Pre-Modern Europe"** (with Erich Battistin and Mattia Fochesato)
   <br>
   *Work in progress*
